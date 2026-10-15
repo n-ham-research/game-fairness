@@ -25,3 +25,8 @@ record a notice and recheck the companion-dependent proofs before updating
 its pinned version. Neither unpublished manuscript is represented as externally
 reviewed literature. The2011 thesis/2021paper remain independently cited prior
 sources, not interchangeable with candidate research.
+
+The first independently runnable fairness snapshot is commit
+[a5e7f06](https://github.com/n-ham-research/game-fairness/tree/a5e7f06).
+Utility/assignment dependencies may cite this snapshot rather than relying on
+a mutable companion branch. The underlying transfer source remains976e227.
