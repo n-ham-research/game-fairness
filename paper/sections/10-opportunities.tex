@@ -1,0 +1,73 @@
+\section{Choice after assignment}
+A participant receives a role before choosing an action. Physical opponent
+states belong to a finite set $T$; disclosed correspondences
+$\theta_i:T\to A_{-i}$ fix their meaning in each candidate role. Opponents
+follow a known law $\mu$ independently of the participant's choice. Receipts
+$r_i(a,\theta_i(t))$ are measured in a common monetary scale, and the
+participant is risk neutral. These are substantive calibration assumptions.
+Put $x_{ia}(t)=r_i(a,\theta_i(t))$. The role value is
+\[
+ V_i(\mu)=\max_a\mu\cdot x_{ia}.
+\]
+A role lottery $\lambda$ is valued at $\sum_i\lambda_i V_i(\mu)$.
+Indifference between all such lotteries is therefore exactly equality of the
+role values. This definition makes no reference to automorphisms.
+
+\begin{theorem}[Opportunity criterion; P7-A1]
+Indifference holds for every belief on $T$ if and only if the sets
+\[
+ D_i=\operatorname{conv}\{x_{ia}:a\in A_i\}+\R_{-}^{T}
+\]
+are equal. It suffices to test all full-support beliefs.
+\end{theorem}
+\begin{proof}
+The support function of $D_i$ at a probability vector is $V_i$.
+If two closed downward polyhedra differ, separation supplies a separating
+normal. Downward closure forces every coordinate of that normal to be
+nonnegative. Normalize its sum to one to obtain a distinguishing belief.
+Continuity extends equality on full-support beliefs to the whole simplex.
+\end{proof}
+This is an application of standard convex separation, not a new convexity
+theorem. If every action is uniquely optimal at some full-support belief,
+equality of these sets forces equality of payoff-row sets: unique exposed
+maximizers of a common polyhedron coincide. Inessential actions need not be
+identified. For example the menus
+$\{(1,0),(0,1),(1/2,1/2)\}$ and
+$\{(1,0),(0,1),(1/4,1/4)\}$ have equal values at every belief.
+Neither added row is dominated by a single original row.
+
+Even essential actions do not imply a simultaneous player automorphism.
+For three binary players let $r=(1,0,0)$ and
+$u_i(s)=\mathbf1\{s_i=s_{r(i)}\}$. In each role label the relevant opponent
+first. All focal tables and optimized values coincide, and both actions are
+essential. But the directed dependency graph has distinct indegrees $2,1,0$.
+Every player permutation in an exact, cardinal or ordinal automorphism must
+fix that graph, hence is the identity. Focal opportunity equality is weaker
+than simultaneous typed interchangeability.
+
+\paragraph{Information restrictions.}
+For exchangeable beliefs, replace each payoff row by its averages on opponent
+permutation orbits and apply the same theorem on the orbit simplex. Optimizing
+before comparing expectations changes the relation to IID tests. On states
+$00,01,10,11$, compare the menus
+\[
+ M_0=\{(2,0,0,0),(0,0,0,2),0\},\qquad
+ M_1=\{(2,0,0,0),(0,0,0,2),(0,1,1,0)\}.
+\]
+Every common IID binary law gives both menus value
+$2\max\{(1-p)^2,p^2\}$. Yet the full-support exchangeable law
+$(\epsilon/2,(1-\epsilon)/2,(1-\epsilon)/2,\epsilon/2)$ gives
+$\epsilon$ and $1-\epsilon$ for $0<\epsilon<1/2$.
+The research proof gives an embedding in a single four-player game; it does
+not assume all four roles have equal action counts.
+
+\paragraph{Unknown risk attitude.}
+For common ordered physical consequences $z_0<\cdots<z_L$, replace a row by
+its upper-tail vector $(\Pr(r\ge z_\ell))_{\ell=1}^L$ under the fixed belief.
+Equality of the downward convex hulls of these vectors is necessary and
+sufficient for equal optimized values under every strictly increasing
+expected-utility function on these consequences. Indeed utility increments
+are arbitrary positive coefficients of the tails; continuity and separation
+complete the argument. This uses common physical consequences and common
+risk attitudes. It is not a characterization by role-specific ordinal
+utility automorphisms.

@@ -13,3 +13,8 @@ Complete relevant primary-source comparison and obtain human scrutiny before
 any submission decision. VNM first-edition, originalDMproof and finalPlan
 body gaps remain explicit. AI self/cross-review is not external peer review.
 The binary potential theorem belongs to the companion structural programme.
+
+Phase 7: manuscript expanded to include explicit model, opportunity theorem,
+pair-mask theorem and scoped cooperative comparison. Novelty remains
+unresolved; external proof review and source gaps preclude submission
+readiness. No submission authorized.

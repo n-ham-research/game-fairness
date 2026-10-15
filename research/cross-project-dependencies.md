@@ -30,3 +30,7 @@ The first independently runnable fairness snapshot is commit
 [a5e7f06](https://github.com/n-ham-research/game-fairness/tree/a5e7f06).
 Utility/assignment dependencies may cite this snapshot rather than relying on
 a mutable companion branch. The underlying transfer source remains976e227.
+
+Phase 7 structural companion audit is pinned to game-symmetry
+`d581ee066270a46ac86f5548482eae0453fba500`. P7 assignment and mask results
+are developed here and do not depend on the six-player construction.

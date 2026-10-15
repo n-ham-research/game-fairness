@@ -29,3 +29,14 @@ is not external peer review or author sign-off.
 The original 41-result Ham2021 audit belongs to Game Symmetry. Imported audit snapshots are frozen support,
 not a new or renumbered fairness registry. Consult its correction ledger for
 the precise typed matching statements used here.
+
+## Phase 7 — model-specific characterizations
+
+| Stable ID | Statement | Proof / status |
+|---|---|---|
+| P7-A1–A2 | All-belief optimized indifference iff equal downward convex opportunity sets; essential actions recover focal rows, not simultaneous symmetry | phase7-assignment-opportunities.md; proved candidate/application of standard convexity |
+| P7-A3–A4 | Exchangeable projection criterion; optimized IID strictly weaker even for full-support separating beliefs | same; exact counterexamples |
+| P7-A5–A6 | Utility-group comparison and common-risk opportunity-tail criterion | same; common consequences required |
+| P7-O1–O2 | Pair-mask kernel dimension product binomial(k,r); sharp k-context recovery budget when m>k | phase7-independent-models.md; proved candidate, novelty unresolved |
+| P7-O3–O4 | Unoptimized IID equals exchangeable tests; common increasing utilities recover hidden consequence laws | same; optimized qualifier essential |
+| P7-C1–C2 | Coalition-size symmetry permits empty core; exact transported histories give no automatic coherence welfare premium | phase7-coalition-and-coherence.md; standard cooperative argument and scoped comparison |

@@ -1,0 +1,41 @@
+\section{Coalition and implementation comparisons}
+Von Neumann and Morgenstern's coalition-size criterion concerns a derived
+coalition-value function, rather than equality of realized receipts.
+For a zero-sum strategic game let $v(S)$ be the security value of the total
+receipt of a jointly randomizing coalition against its complement. Then
+$v(N\setminus S)=-v(S)$ and $v(N)=0$.
+
+\begin{proposition}[P7-C1]
+If $v(S)$ depends only on $|S|$, its Shapley vector is zero. Its TU core is
+nonempty if and only if $v$ is identically zero; in that case the core is
+$\{0\}$.
+\end{proposition}
+\begin{proof}
+Permutation covariance and efficiency force equal Shapley coordinates
+summing to zero. If the core is nonempty, convexity and permutation invariance
+allow averaging a core allocation to zero. Its coalition inequalities imply
+$v(S)\le0$; complement antisymmetry then forces $v(S)=0$.
+Conversely singleton inequalities and efficiency give precisely $\{0\}$.
+\end{proof}
+This standard cooperative-game argument is a comparison with a later
+solution concept, not an attribution of the core to VNM Section~28.
+For a concrete strategic example take three binary players: unanimous
+profiles pay zero, while each majority player receives $1$ and the minority
+receives $-2$. The game is fully symmetric and zero sum. A singleton mixing
+with probability $p$ faces the four expected receipts
+$-2p,1,1,-2(1-p)$, so its security value is $-1$. Pair values are $1$.
+Thus VNM's coalition-size criterion and a zero Shapley vector coexist with
+an empty core: the three pair inequalities contradict total receipt zero.
+
+\paragraph{Coherence.}
+Suppose every implemented lift is an exact automorphism and two histories
+have the same total player permutation. Their cumulative lifts preserve
+each transported receipt pointwise, hence give the same receipt distribution
+under every common risk attitude. A strategy-label discrepancy in the player kernel can obstruct
+path-independent implementation without producing a receipt difference.
+For multistage receipts the same statement requires the same player
+permutation at every matched observation date, applied to the same reference profile
+or a coupled common reference process. Reset costs, action costs or
+history-dependent consequences must be included in the game before its
+symmetries are computed. Coherent implementation therefore has no automatic
+welfare advantage in a terminal-payoff-only model (P7-C2).

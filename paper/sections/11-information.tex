@@ -1,0 +1,44 @@
+\section{Recovering data through hidden-opponent tests}
+Here actions are committed, or tested as singleton menus. There are $m$
+opponent positions with a common alphabet of $k$ actions. Hiding a pair
+$e=\{r,s\}$ averages a discrepancy array $d$ by
+$E_e d=(d+d\circ\tau_e)/2$. Other positions remain distinguished.
+Varying product laws and a common IID law at the hidden pair recovers this
+averaged array by polynomial coefficients.
+
+\begin{theorem}[Pair-mask criterion; P7-O1--O2]
+Let the tested pairs form a graph whose component sizes are $r_1,\ldots,r_q$.
+The space invisible to every pair test has dimension
+\[
+ \prod_{j=1}^q\binom{k}{r_j}.
+\]
+Thus ordered data are recovered exactly when some component has more than
+$k$ positions. If $m>k$, exactly $k$ pair contexts are necessary and sufficient
+for uniform recovery. If $m\le k$, even every pair fails to recover all data.
+\end{theorem}
+\begin{proof}
+Invisibility means $d\circ\tau_e=-d$ for every edge. Edge transpositions
+generate the full symmetric group on each connected component, so $d$ is
+alternating within each component. Such arrays vanish on repeated labels
+and are freely determined by one value per subset of $r_j$ distinct labels.
+Tensoring components gives the formula. A component on $k+1$ vertices
+requires at least $k$ edges, and a path with $k$ edges attains the bound.
+\end{proof}
+Applying the criterion simultaneously to every recipient and focal action
+recovers an exact typed automorphism only when the \emph{same} typed map is
+used throughout. Independently chosen focal maps do not suffice.
+
+For unoptimized payoff expectations, all common IID tests are equivalent to
+all exchangeable tests: coefficients of the homogeneous IID polynomial
+recover every histogram average (P7-O3). The optimized example above shows
+why the quantifier over actions cannot be moved through this comparison.
+
+With common ordered physical consequences, indifference under every strictly
+increasing utility identifies the entire hidden consequence distribution by
+its tail probabilities. A hidden pair therefore identifies its unordered
+pair of consequences. Apply the alternating-array argument to each tail
+indicator to obtain pointwise consequence recovery under the same graph
+condition (P7-O4). The proofs and sharp alternating counterexamples are in
+\texttt{research/phase7-independent-models.md}. Alternating tensors and
+polynomial identification are standard tools; novelty of this particular
+experimental application remains unestablished.

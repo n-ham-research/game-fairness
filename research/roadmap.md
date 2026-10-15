@@ -24,3 +24,8 @@ The binary exact-potential theorem remains in Game Symmetry. Its cardinal and
 ordinal corollaries are recorded here with a companion dependency. The
 six-player nonsplitting construction is not this programme's centrepiece.
 No manuscript submission is authorized.
+
+Phase 7 completed a calibrated choice-after-assignment model and a separate
+commitment information model. Next: external proof criticism, objective-state
+menu/Blackwell novelty comparisons, endogenous opponent behavior, and the
+1944 VNM source gap. See phase7-literature-and-status.md.

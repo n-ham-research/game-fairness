@@ -27,3 +27,10 @@ fresh Phase6 audit instance independently read the fairness draft, checking
 its utility normalization, assignment and opponent-ordering claims. Root
 verified15tests and42exact imported provenance records. These are actual
 internal checks, not external peer review.
+
+Phase 7: root developed optimized opportunity, risk-tail, coalition/core and
+coherence comparisons and integrated the manuscript. A separate information
+agent developed mask recovery and independently attacked root claims; a
+symmetry agent reviewed opportunity proofs read-only while owning the
+companion audit. Root reviewed information proofs. Same-family internal
+reviews are not external peer review or author sign-off.
