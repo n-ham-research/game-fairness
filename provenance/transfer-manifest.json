@@ -1,0 +1,340 @@
+[
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/utility-invariance.md",
+    "destination_path": "research/utility-invariance.md",
+    "sha256": "fd7660e755687a5d880a7959f18b539f018fb6b1483da2b53846865811e7eeac",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/assignment-and-solution-rules.md",
+    "destination_path": "research/assignment-and-solution-rules.md",
+    "sha256": "f344beaf3a9346786808863f67fc990b1d9d7cf9b23daed6717728750de7433f",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/phase4-assignment-model.md",
+    "destination_path": "research/phase4-assignment-model.md",
+    "sha256": "83447b5983328bb51460c873a20bba58c75e6f8deb77ac839c5b91c1210fec93",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/phase4-interchangeability.md",
+    "destination_path": "research/phase4-interchangeability.md",
+    "sha256": "c7f6da5140ac09f7bca44d8ae00c4960ed95ba025bca6cb7222635485096762d",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/phase3-fairness.md",
+    "destination_path": "research/phase3-fairness.md",
+    "sha256": "b2713c0835909b3a02f30feb9d914c24264a8fea1a00a25580929cf2d2a4ba2b",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/fairness-preparation.md",
+    "destination_path": "research/fairness-preparation.md",
+    "sha256": "9cb39b9dbc26a9a65d67a800d791e3015b9fc7478caf3dfdb0977f0ee1c296f0",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/fairness-literature-vnm-strategic.md",
+    "destination_path": "research/fairness-literature-vnm-strategic.md",
+    "sha256": "bcff72020b46c51d5fc315b119605bc4f8053959379d07bff7e451e0b027fcfc",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/fairness-literature-solutions.md",
+    "destination_path": "research/fairness-literature-solutions.md",
+    "sha256": "8b55c81116a818ddbf3650651a8ea6a4794cb7e3b5ba7b75dfa65b836bdfce6d",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/fairness-programme-handover.md",
+    "destination_path": "research/fairness-programme-handover.md",
+    "sha256": "73c0e33850e99405644612d58e5325ecfbcfd6f036e3b796410b069b841d5b71",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/fairness.md",
+    "destination_path": "research/fairness.md",
+    "sha256": "c66618246248a48f9eff5223b0f4c04dcd2dfc960935e9e22203fc68c468f309",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/historical-research.md",
+    "destination_path": "research/historical-research.md",
+    "sha256": "c831c20c5a27b03fe38dea0fdc05948846f39a167af0d089c59ec85f74e6f6da",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/phase4-source-requests.md",
+    "destination_path": "research/phase4-source-requests.md",
+    "sha256": "9a8838be53964fc354486b309f15e7290292c9a2f346b6cb64bb480359172b14",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/phase4-novelty-comparison.md",
+    "destination_path": "research/phase4-novelty-comparison.md",
+    "sha256": "b96b29b431494ed08a738aa763162cb738be6a19630da56739c2e4f80f6c1f16",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/corrections.md",
+    "destination_path": "research/corrections.md",
+    "sha256": "5166841f3b1a7b4173da31c5aba39e6aebe47305494a7212f8df8081ab11df50",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/definition-audit.md",
+    "destination_path": "research/definition-audit.md",
+    "sha256": "9aad48f1aca8a830ee52f6d54052be01cc8244f16d7c4ca70cb941302ed8a64c",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/dasgupta-maskin.md",
+    "destination_path": "research/dasgupta-maskin.md",
+    "sha256": "29eb115b5ce7d9fc60562a02cfe682ae97727b7182f17275ca1a853af8b73cf9",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/theorem-audit.md",
+    "destination_path": "research/theorem-audit.md",
+    "sha256": "92f133751ce5feb51cdf35902c0e46ec192316d7e710ce53ed92490204f10527",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/classification-audit.md",
+    "destination_path": "research/classification-audit.md",
+    "sha256": "e4c9fa977697de3d7ec12a589341d671b3a233eaab93d37f01c3c4ab9e547bef",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/audit.json",
+    "destination_path": "research/audit.json",
+    "sha256": "c2c3181faaa18d563e72bdfe8598a7a6bb94141e81ada4ba428579c885688407",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/inventory.json",
+    "destination_path": "research/inventory.json",
+    "sha256": "9fe74c810f48aebc7f5460dc34a67236dceba811d0cf3cf9a53ad57a14d6d82b",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/original-record.json",
+    "destination_path": "research/original-record.json",
+    "sha256": "ea06229b79460389d2726f4e610354ecc6aa3a594cb3a625dea9e2bf7465d504",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "research/counterexamples.json",
+    "destination_path": "research/counterexamples.json",
+    "sha256": "1b35c1608d35c423de833ca476d8da88a988e07ac62bdebd2a60568ff3ab7ce8",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/utility_invariance.py",
+    "destination_path": "experiments/utility_invariance.py",
+    "sha256": "aa04be0a16bbf2b3d70d4f51b18958cbcdd4b893eeb2aa245052f0ec5d84f530",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/matching_audit.py",
+    "destination_path": "experiments/matching_audit.py",
+    "sha256": "f1cc0736cb833e068ae0c95a847a106e7f97fb6acd7841ea8ecb922e05241796",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/finite_games.py",
+    "destination_path": "experiments/finite_games.py",
+    "sha256": "00b388aa4b6e10ed54c63146e0d9d24b58bcdd38f4e44f7075ab103d60e413d6",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/phase3_splitting.py",
+    "destination_path": "experiments/phase3_splitting.py",
+    "sha256": "91cf24e7fe45f494b0baf06a8de100d1237e06e655056d1cedd500311731b16b",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/test_utility_invariance.py",
+    "destination_path": "experiments/test_utility_invariance.py",
+    "sha256": "da11a237ccebcf1cd1fc6fff8075753e6a26f78e62a8da4da10c67d4d5bf66d2",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/test_phase3_fairness.py",
+    "destination_path": "experiments/test_phase3_fairness.py",
+    "sha256": "4f89f01841a30218a5c7e8e049050e9c2e3b1b9c0321faeeca810dd01e332273",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/test_phase4_assignment.py",
+    "destination_path": "experiments/test_phase4_assignment.py",
+    "sha256": "15f218fdfc17af4cc48eb93b293c281e51cf735610091b9506379374c7cfd7f7",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support",
+    "original_copy": "provenance/originals/experiments/test_phase4_assignment.py",
+    "adaptation": "Only orientation helper import localized to avoid structural classification dependency."
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-P3-FAIR-LIT-B.md",
+    "destination_path": "reviews/R-P3-FAIR-LIT-B.md",
+    "sha256": "0344f0e2145267d265683353a04c92ef4f0334e83fb9e7844bbe73d426060ad0",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-P3-FAIR-SPEC-B.md",
+    "destination_path": "reviews/R-P3-FAIR-SPEC-B.md",
+    "sha256": "d1142a80512fd08427b2764e8b4766d958fe1d34d64813ad8f6e73dba3673ad5",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-P4-TERNARY-B.md",
+    "destination_path": "reviews/R-P4-TERNARY-B.md",
+    "sha256": "3bb019152ace72bd2ea5785e7c7a19dfc9724d588b2d8bc8cda91f661fce75f3",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-P4-MECHANISMS-C.md",
+    "destination_path": "reviews/R-P4-MECHANISMS-C.md",
+    "sha256": "423543c00861e2ead7a6e3ffc0ebaf0d9d242062d486aff8065fe397b73279c2",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "references/sources.md",
+    "destination_path": "references/sources.md",
+    "sha256": "9da1e1fe3d1732412dbb98aa907e4449e5f1d2a752beb667763ff449111c2411",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "references/checksums.sha256",
+    "destination_path": "references/checksums.sha256",
+    "sha256": "39c9cfdc8b05abca972cdc35da49e3bb98333ee78c24e29bf93d834a761b65aa",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "LICENSE",
+    "destination_path": "LICENSE",
+    "sha256": "9231683e90f1b42ee9bb477febfa56506f54a828b7be95e29ed5e222961e94ab",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": ".gitignore",
+    "destination_path": ".gitignore",
+    "sha256": "914752e2c809048bafc88092c94a412f12dfdf257dbbf59fda05cc8bf5fa98a8",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "scripts/build.sh",
+    "destination_path": "scripts/build.sh",
+    "sha256": "fa19cad6add9d96f006d49b5b78f962e39128f362005f1f7ee21c97c2b3aa2b0",
+    "maintenance": "game-fairness canonical for utility/assignment/fairness; imported structural foundations pinned support"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "experiments/test_assignment_rules.py",
+    "destination_path": "experiments/test_assignment_rules.py",
+    "sha256": "d5573d11ef4cdacd3b2b1664df2cfb227442461d05a5d4f58eac57029e87c321",
+    "maintenance": "game-fairness canonical or imported frozen evidence"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-P3-ASSIGN-B.md",
+    "destination_path": "reviews/R-P3-ASSIGN-B.md",
+    "sha256": "60e423daefd51392a28470414c62a39be57436e06585b7303f6c37f7c1797384",
+    "maintenance": "game-fairness canonical or imported frozen evidence"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-P3-UTILITY-B.md",
+    "destination_path": "reviews/R-P3-UTILITY-B.md",
+    "sha256": "555b15565e3053a98f4ebfb395c87aba57fa79df81defb7725c9874cc1609fb6",
+    "maintenance": "game-fairness canonical or imported frozen evidence"
+  },
+  {
+    "source_repository": "https://github.com/n-ham-research/game-symmetry",
+    "source_commit": "976e22798b8d679ec91339695a049f88d8ffbee5",
+    "source_path": "reviews/R-UTILITY-A.md",
+    "destination_path": "reviews/R-UTILITY-A.md",
+    "sha256": "7484291733fc571b139177ebf338a76b65e108b96c02ca765adc9594cdf039c5",
+    "maintenance": "game-fairness canonical or imported frozen evidence"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "source_version": "arXiv:1311.4766v5",
+  "source_url": "https://arxiv.org/src/1311.4766v5",
+  "baseline_commit": "a30c617877684c03bac2ce14585dd2b9492752e4",
+  "source_archive_sha256": "f57e2f85caabb6bd7d298f70209383b64d932b8c0923fce729fabb8125bd9775",
+  "original_section_sha256": {
+    "paper.tex": "815a1610cd6c7f1d58868df5efd185c653f896bc114d669b003a82b19fc49257",
+    "section-background.tex": "89dac75ee17f726702e4c1eb8ca5e0fcf8e8654f0af5bf6ec2433cfab91bdcd8",
+    "section-bijections.tex": "e7d2dac268c221406eeeadd1da96374850b6b7ebf5c4585b4aa82b9d162c2354",
+    "section-intro.tex": "8cab1a2679b90cc664bf205fabc53bfcaab6ada0d2fd51920be0665167c267d1",
+    "section-label-dependent-symmetric-games.tex": "c0ac54bcb7bbfb5cdcabf1122bdb4ac2f36bc839516038dd375affb666e58157",
+    "section-label-independent-symmetric-games.tex": "bd070546dd1696769457eb728b031bebfe763b6c3e147014355adf5318d4a2ef"
+  },
+  "files": [
+    {
+      "path": "research/inventory.json",
+      "sha256": "9fe74c810f48aebc7f5460dc34a67236dceba811d0cf3cf9a53ad57a14d6d82b",
+      "git_commit": "a30c617877684c03bac2ce14585dd2b9492752e4",
+      "git_blob": "0d90b436ee057a66ea609afecf42f606846579f6"
+    },
+    {
+      "path": "research/original-result-inventory.md",
+      "sha256": "a48e3579d85709571a1aff645d036850722b2733f1f14c7a357d3af399fa3c04",
+      "git_commit": "a30c617877684c03bac2ce14585dd2b9492752e4",
+      "git_blob": "b46c30a1f0b21c819ee255a434f7208b2f814730"
+    },
+    {
+      "path": "research/original-defects.json",
+      "sha256": "67020ae516d9eb91554d7cc0b22d018783582009ff13080ea1d0843f195155c2"
+    },
+    {
+      "path": "research/original-diagrams.json",
+      "sha256": "f9d0030164c1c23384988789c174a4af58f4c8018451b7eb0f814ae2ef82d0ee"
+    },
+    {
+      "path": "research/counterexamples.json",
+      "sha256": "1b35c1608d35c423de833ca476d8da88a988e07ac62bdebd2a60568ff3ab7ce8"
+    }
+  ],
+  "policy": "Tamper-evident original record: do not overwrite pinned files when repairing mathematics. Git commit objects retain the immutable first-pass statements; checks fail on changed pinned bytes. New interpretations belong in correction/audit records. This is a Git integrity record, not an external timestamp or write-once storage guarantee."
+}

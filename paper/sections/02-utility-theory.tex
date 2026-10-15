@@ -1,0 +1,28 @@
+\section{Utility theory and typed transports}
+Let $I=\{0,\ldots,n-1\}$, let each $A_i$ be finite and nonempty, and put
+$A=\prod_i A_i$. A game has payoffs $u_i:A\to\mathbb R$.
+A typed bijection $g=(p;(f_i))$ has a permutation $p$ of players and bijections
+$f_i:A_i\to A_{p(i)}$. Its action is $(gs)_{p(i)}=f_i(s_i)$.
+Composition is right to left, so $(P_p s)_j=s_{p^{-1}(j)}$ for bare permutations.
+Write $q(g)=p$.
+
+\begin{definition}
+A typed bijection is exact if $u_{p(i)}(gs)=u_i(s)$; cardinal if
+$u_{p(i)}(gs)=a_i u_i(s)+b_i$ with $a_i>0$; and ordinal if, for all $s,t$,
+\[
+u_i(s)\le u_i(t)\quad\Longleftrightarrow\quad
+u_{p(i)}(gs)\le u_{p(i)}(gt).
+\]
+The latter preserves the complete pure-outcome preorder, including ties.
+\end{definition}
+Ordinality is equivalent to a strictly increasing bijection between attained
+payoff ranges. Cardinality corresponds to preservation of expected-utility
+preferences over all lotteries on profiles. To see necessity, pull back a
+target representation $v$. For nonconstant $u$, choose worst and best profiles
+$a,b$. Each profile $s$ is indifferent to the lottery on $a,b$ with probability
+$(u(s)-u(a))/(u(b)-u(a))$ on $b$. Preserved indifference forces $v=\alpha u+\beta$,
+and strict endpoint preference gives $\alpha>0$. Constant tables are immediate.
+Sufficiency follows by linearity. These are representation statements, not
+interpersonal utility comparisons. Ham \citep[\S4.3]{hamthesis} already studies
+the finite-game counterparts; the migrated proof also treats all independent
+mixed-profile comparisons without assuming product laws form a convex set.

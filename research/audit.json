@@ -1,0 +1,753 @@
+{
+  "version": 1,
+  "date": "2026-10-16",
+  "scope": "All 41 numbered formal results in Ham arXiv:1311.4766v5. Status describes reviewed formulation; original statement and proof verdicts are separate. Verified is internal mathematical audit, not external peer review or author sign-off.",
+  "statuses": [
+    "Verified",
+    "Verified after correction",
+    "Incorrect",
+    "Redundant or superseded",
+    "Unresolved"
+  ],
+  "results": [
+    {
+      "id": "2.2",
+      "kind": "Proposition",
+      "status": "Verified after correction",
+      "original_statement_status": "Incorrect",
+      "original_proof_status": "Replaced",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Finite marginal recovery proves injectivity; a two-coordinate correlated law proves the sharp surjectivity boundary, including n=1.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "2.3",
+      "kind": "Proposition",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Continuity on compact product simplexes gives optimizers; evaluate the lower optimizer against the upper optimizer to get lower<=upper.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "2.2:product-law"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "2.4",
+      "kind": "Proposition",
+      "status": "Verified after correction",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Replaced",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Use U2=-U1 and max(-f)=-min(f), retaining each variable domain; replace the printed reversed order.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "2.2:product-law"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "2.5",
+      "kind": "Proposition",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Finite matrix minimax follows from strong LP duality of feasible bounded max-v/min-w programs. This is an established theorem, not a new proof claim.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "2.2:product-law"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.1",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "At coordinate j, P_tau P_pi s=s_{pi^{-1}tau^{-1}(j)}=P_{tau pi}s; identity/inverse are explicit.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "D-common-labels"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.2",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "The inverse-permutation map reverses products, giving the right action.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.1"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.3",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Substitute 3.1 into payoff composition, keeping the player index tau(pi(i)).",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.1"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.4",
+      "kind": "Proposition",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Reconstruct the indexed profile from focal coordinate and complement; the action maps both to their typed targets.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.1",
+        "2.2:product-law"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.5",
+      "kind": "Proposition",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Individual-coordinate transports have identity components with tagged domains; identities, inverses and composition stay in the family.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.4"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.6",
+      "kind": "Proposition",
+      "status": "Verified after correction",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Replaced",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "On complement functions T_pi^i(x)_j=x_{pi^{-1}(j)}; inverse is y_k=y_{pi(k)} and typed compositions agree. Replace malformed printed tuple.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "3.4"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.8",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Identity, inverse substitution and successive payoff substitutions give a subgroup of S_N.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.3"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.18",
+      "kind": "Theorem",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "For pi,i choose symmetry tau with tau(i)=pi(i); tau^{-1}pi fixes i. Opponent anonymity and symmetry yield ui=u_pi(i) P_pi. Other directions follow from inverses and transposition generation.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.8",
+        "3.9",
+        "3.15",
+        "3.17"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.19",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Full anonymity at the identity gives identical utilities; it then gives total symmetry. Conversely combine total symmetry with identical utilities.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.13",
+        "3.17"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.20",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Two substitutions give opposite multiplication orders on player and inverse profile indices; inverse-of-product identity verifies the order.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.1"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.21",
+      "kind": "Theorem",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Transpositions turn D into correct symmetry; comparison at pi and pi^{-1}, plus a third-player three-cycle, yields identical utilities; converse immediate.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "3.8",
+        "3.20",
+        "3.18"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.23",
+      "kind": "Proposition",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "A bare swapping automorphism is a special case of the mixed-strategy zero-sum value-zero proof; no pure-extremum substitution.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "2.4",
+        "2.5",
+        "3.17",
+        "3.22"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "3.25",
+      "kind": "Proposition",
+      "status": "Verified after correction",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Replaced",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Exact automorphism pushforward bijects focal and opponent mixed domains; changing variables equates both security values along player orbits. Replace erroneous same-player first proof identity.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.15",
+        "2.2:product-law"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.5",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Component of h g at i is h_{q(g)(i)} g_i; applying it gives (hg)s=h(gs).",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.2"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.6",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Substitute typed profile composition 4.5 into the target payoff expression.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.5"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.7",
+      "kind": "Theorem",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Typed player/strategy identities, component inverses and associative component composition give a groupoid on games.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.2",
+        "4.5"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.9",
+      "kind": "Theorem",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Exact payoff identities are preserved under component composition and inversion, yielding a subgroupoid.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.7",
+        "4.8"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.10",
+      "kind": "Corollary",
+      "status": "Unresolved",
+      "original_statement_status": "Ambiguous",
+      "original_proof_status": "Clarified",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "No structure on the asserted isomorphic hom-sets is specified. Equipotence is proved after choosing arrows a,b by h->b h a^{-1}; intrinsic group reading is unsupported.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "4.9"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.11",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Player projection q is a homomorphism; q(g)=q(h) iff g^{-1}h is in its pointwise-player kernel, i.e. the same coset of G_N.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.7",
+        "D-player-projection"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.12",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "g G_N -> q(g) is a well-defined bijective homomorphism onto the actual player image.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.11"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.14",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "If g,h send i to the same player, h^{-1}g fixes i and has identity component by strategy triviality; hence g_i=h_i.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.13",
+        "4.7"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.15",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "An element fixing every player has every strategy component identity, hence is the identity typed bijection.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.13"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.16",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Define c_ij from any group element taking i to j. 4.14 gives independence of choice and component composition gives coherence on each player orbit.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.14"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.19",
+      "kind": "Lemma",
+      "status": "Verified after correction",
+      "original_statement_status": "Ambiguous",
+      "original_proof_status": "Clarified",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "With objects (i,A_i) and arrows (i,j,p_j p_i^{-1}), projection cancellation gives identities, inverses and composition. Untagged equal-set interpretation need not be closed.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "4.17"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.20",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "The i-component of M_tau M_pi is c_pi(i),tau pi(i) c_i,pi(i)=c_i,tau pi(i). Player projection proves injectivity even with singleton actions.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.17",
+        "4.19",
+        "4.2"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.21",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Apply matching homomorphism to pi pi^{-1} and pi^{-1}pi to obtain both inverse identities.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.20"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.22",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "For s in M, each transported coordinate is its corresponding projection, so every matching lift fixes s.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.17",
+        "4.20"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.23",
+      "kind": "Theorem",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Strategy triviality makes all components between a reachable pair unique and coherent. Transitivity supplies all pairs; their graph from a reference player is a matching; converse has fixed-player component identity.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md",
+        "reviews/R-MATCH-003-B.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.16",
+        "4.17",
+        "4.20"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.24",
+      "kind": "Corollary",
+      "status": "Verified after correction",
+      "original_statement_status": "Incorrect",
+      "original_proof_status": "Replaced",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Full typed bijection ambient group plus full player image gives exactly M_SN via 4.23. Pulling back/pushing forward the common-label diagonal conjugates matching lifts to pure coordinate permutations, including player relabeling.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md",
+        "reviews/R-FOUND-003-C.md",
+        "reviews/R-MATCH-003-B.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "4.23",
+        "4.20",
+        "3.9",
+        "4.9"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.26",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "In binary sets every matching consists of a profile and its coordinatewise complement; these complement pairs partition the profile set.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.17"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.27",
+      "kind": "Lemma",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Fix one reference action. Choose its matched profile in m^(n-1) ways; delete those labels and match the residual (m-1)-element sets.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.17"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "4.28",
+      "kind": "Theorem",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Fix A1; independently choose a bijection A1->Ai for i>1. This gives each matching exactly once, hence (m!)^(n-1).",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.26",
+        "4.27"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "5.1",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Conjugating a transitive strategy-trivial automorphism subgroup through its matching gives ordinary label-preserving transitivity, and conversely. Does not use 4.24.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md",
+        "reviews/R-MATCH-003-B.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.23",
+        "4.9",
+        "3.15"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "5.2",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "The same matching conjugation with full player image S_N characterizes total symmetry up to exact isomorphism. Does not use 4.24.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md",
+        "reviews/R-MATCH-003-B.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.23",
+        "4.9",
+        "3.17"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "5.3",
+      "kind": "Corollary",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Use 5.1 matching lift subgroup, 4.22 fixed matching profiles, transitivity and exact utility preservation to equate players on that matching.",
+      "evidence": [
+        "reviews/R-MATCH-003-A.md",
+        "reviews/R-MATCH-003-B.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "5.1",
+        "4.22"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "5.6",
+      "kind": "Proposition",
+      "status": "Verified",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Verified by supplied derivation",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Trivial player kernel and abstract order n! make the player image S_N; the lift of an n-cycle has order n and a regular, hence strategy-trivial, cyclic subgroup.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": null,
+      "dependencies": [
+        "4.12",
+        "4.15",
+        "5.1"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    },
+    {
+      "id": "5.11",
+      "kind": "Theorem",
+      "status": "Verified after correction",
+      "original_statement_status": "Verified",
+      "original_proof_status": "Replaced",
+      "assumptions": "Finite nonempty A_i, n>=2; common strategy labels in Section 3; additional assumptions exactly as pinned statement. One-player/infinite-action extensions are separately marked.",
+      "justification": "Swapping strategy bijections push independent mixed distributions forward and equate the players security values. Zero-sum minimax makes them opposite, hence zero; replace bare-swap/pure-value proof.",
+      "evidence": [
+        "reviews/R-FOUND-003-C.md"
+      ],
+      "correction_record": "research/corrections.md",
+      "dependencies": [
+        "2.4",
+        "2.5",
+        "4.8",
+        "5.4",
+        "2.2:product-law"
+      ],
+      "provenance": "Previously stated by Ham v5, with source attribution retained; corrections/clarifications not claimed novel"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+\section{A calibrated assignment experiment}
+A single participant has expected utility $W(i,s)$ on the disjoint union of
+role-profile consequences. This is additional data beyond separate player
+preferences. Given conditional laws $L_i$, put $m_i=\mathbb E_{L_i}W(i,s)$.
+Indifference between every assignment lottery is equivalent to all $m_i$
+being equal, by testing Dirac assignments and then using linearity.
+
+\begin{proposition}[A1: underidentification]
+Within-role expected-utility preferences do not determine assignment
+indifference. For any desired role values $d_i$, any conditional laws $L_i$,
+and arbitrary $a_i>0$, set
+\[
+W(i,s)=a_i u_i(s)+d_i-a_i\mathbb E_{L_i}u_i.
+\]
+This preserves each role's conditional preferences and gives expected role
+values $d_i$.
+\end{proposition}
+The formula proves the claim directly. It constructs different global
+preferences consistent with identical within-role information; it does not
+license independently rescaling a global preference already fixed.
+
+Now fix a risk-neutral participant and monetary receipts $W(i,s)=u_i(s)$ on
+one common scale. Disclose a reference role 0, a reference product law $\mu$
+for opponents, assignment probabilities, and typed transports $t_i$ taking
+0 to $i$, with $t_0=\id$. The own action is chosen after assignment and is
+physically transported by the disclosed component of $t_i$. Define
+\[
+V_i(a)=\mathbb E_\mu u_i(t_i(a,s_{-0})),\qquad M_i=\max_a V_i(a).
+\]
+\begin{proposition}[A4.1--A4.2: calibrated tests]
+If every $t_i$ is an exact automorphism, then $V_i(a)=V_0(a)$ for every $a$
+and all $M_i$ are equal. No coherence of the transports is needed.
+For fixed transports, equality of these action values for every action and
+every product opponent law is equivalent to
+$u_i(t_i s)=u_0(s)$ for all pure $s$.
+\end{proposition}
+\begin{proof}
+Exactness gives the pointwise identity, hence equality after summation.
+Conversely Dirac opponent laws recover the pointwise identity for each focal
+action. This necessity also holds if laws must have full support, by continuity.
+\end{proof}
+The converse is focal: the same transport must pass analogous tests for every
+payoff recipient to establish a game automorphism. Equality of optimized values
+alone is weaker: menus $\{1,0\}$ and $\{1,-1\}$ have the same optimum.
+Positive-affine equivalence across roles does not supply the common calibration.

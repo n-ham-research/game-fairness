@@ -1,0 +1,861 @@
+[
+  {
+    "id": "2.1",
+    "kind": "Example",
+    "source": "section-background.tex",
+    "line": 54,
+    "statement": "\\label{fullsymeg} 3-player 2-strategy game.\n        \\begin{center}\n        \\begin{game}{2}{2}[$(a,,)$]\n                     \\>  $a$      \\>  $b$      \\\\\n                $a$  \\>  $1,1,1$  \\>  $2,2,3$  \\\\\n                $b$  \\>  $2,3,2$  \\>  $4,5,5$\n        \\end{game}\n        \\hspace*{5mm}\n        \\begin{game}{2}{2}[$(b,,)$]\n                 \\>  $a$      \\>  $b$      \\\\\n                $a$  \\>  $3,2,2$  \\>  $5,4,5$  \\\\\n                $b$  \\>  $5,5,4$  \\>  $6,6,6$\n        \\end{game}\n        \\end{center}\n        We find the payoff to player $3$ for the strategy profile $(b, b, a) \\in A$ as follows: reading the strategy profile from left to right, player $1$ has chosen the second matrix, player $2$ has chosen the second row and player $3$ has chosen the first column, the third value of which is the payoff to player $3$. Hence $u_3(b,b,a) = 4$.",
+    "labels": [
+      "fullsymeg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "2.2",
+    "kind": "Proposition",
+    "source": "section-background.tex",
+    "line": 94,
+    "statement": "The function $f$ defined above satisfies:\n        \\begin{enumerate}\n            \\item For each $\\sigma = (\\sigma_1, \\ldots, \\sigma_n) \\in \\nabla(A)$, $f(\\sigma) = f(\\sigma_1, \\ldots, \\sigma_n) \\in \\Delta(A)$ (ie. $f$ is well-defined);\n            \\item For each $\\sigma, \\sigma' \\in \\nabla(A)$, $f(\\sigma) = f(\\sigma')$ if and only if $\\sigma = \\sigma'$ (ie. $f$ is injective); and\n            \\item $f\\left(\\nabla(A)\\right) \\subset \\Delta(A)$ (ie. $f$ is not surjective).\n        \\end{enumerate}",
+    "labels": [],
+    "explicit_refs": [
+      "eqn:zzz1",
+      "eqn:zzz3",
+      "eqn:zzz2",
+      "eqn:zzz4"
+    ],
+    "citations": []
+  },
+  {
+    "id": "2.3",
+    "kind": "Proposition",
+    "source": "section-background.tex",
+    "line": 243,
+    "statement": "Given a game $\\Gamma = (N, A, u)$, for each player $i \\in N$:\n        \\[\\underline{u}_i = \\max_{\\sigma_i \\in \\Delta(A_i)}\\min_{\\sigma_{-i} \\in {\\nabla(A)}_{-i}} u_i(\\sigma_i, \\sigma_{-i}) \\leq \\min_{\\sigma_{-i} \\in {\\nabla(A)}_{-i}}\\max_{\\sigma_i \\in \\Delta(A_i)} u_i(\\sigma_i, \\sigma_{-i}) = \\overline{u}_i.\\]",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "2.4",
+    "kind": "Proposition",
+    "source": "section-background.tex",
+    "line": 261,
+    "statement": "Given a $2$-player zero-sum game $(\\{1, 2\\}, A_1 \\times A_2, (u_1, u_2))$, the maximin and minimax values for each player are equal to minus the minimax and maximin values for the other player.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "2.5",
+    "kind": "Proposition",
+    "source": "section-background.tex",
+    "line": 275,
+    "statement": "\\label{prop:2pzsminmax=maxmin}\n        \\cite{VNM} Given a $2$-player zero-sum game $\\Gamma = (\\{1, 2\\}, A_1\\times A_2, (u_1, u_2))$, the maximin and minimax values for each player are equal. Ie. $\\underline{u}_i = \\overline{u}_i$ for all $i \\in \\{1, 2\\}$.",
+    "labels": [
+      "prop:2pzsminmax=maxmin"
+    ],
+    "explicit_refs": [],
+    "citations": [
+      "VNM"
+    ]
+  },
+  {
+    "id": "3.1",
+    "kind": "Lemma",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 11,
+    "statement": "\\label{simpleactionprop}\n    For each $s \\in A$ and $\\pi \\in S_N$, $s \\mapsto \\pi(s)$ is a left action of $S_N$ on $A$.",
+    "labels": [
+      "simpleactionprop"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.2",
+    "kind": "Lemma",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 24,
+    "statement": "For each $s \\in A$ and $\\pi \\in S_N$, $s \\mapsto \\pi^{-1}(s)$ is a right action of $S_N$ on $A$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.3",
+    "kind": "Corollary",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 30,
+    "statement": "\\label{utilityactionprop}\n    For each $\\pi, \\tau \\in S_N$, $u_{(\\tau \\circ \\pi)(i)} \\circ (\\tau \\circ \\pi) = (u_{\\tau(\\pi(i))} \\circ \\tau) \\circ \\pi$.",
+    "labels": [
+      "utilityactionprop"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.4",
+    "kind": "Proposition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 51,
+    "statement": "For each $i \\in N$, $\\pi \\in S_N$ and $\\sigma \\in \\nabla(A)$, $\\pi(\\sigma_i, \\sigma_{-i}) = \\Bigl(\\pi(\\sigma_i), \\pi(\\sigma_{-i})\\Bigr)$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.5",
+    "kind": "Proposition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 61,
+    "statement": "\\label{prop:firstgroupoidprop}\n    $\\set{\\sigma_i \\mapsto \\pi(\\sigma_i): i \\in N, \\pi \\in S_N}$ is a subgroupoid of $\\cup_{i, j \\in N}\\bij(\\Delta(A_i), \\Delta(A_j))$.",
+    "labels": [
+      "prop:firstgroupoidprop"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.6",
+    "kind": "Proposition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 76,
+    "statement": "\\label{prop:secondgroupoidprop}\n    $\\set{\\sigma_{-i} \\mapsto \\pi(\\sigma_{-i}): i \\in N, \\pi \\in S_N}$ is a subgroupoid of $\\cup_{i, j \\in N}\\bij({\\nabla(A)}_{-i}, {\\nabla(A)}_{-j})$.",
+    "labels": [
+      "prop:secondgroupoidprop"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.7",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 120,
+    "statement": "$\\pi \\in S_N$ is an \\textit{invariant} of $\\Gamma$ if for each $i \\in N$, $u_i = u_{\\pi(i)} \\circ \\pi$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.8",
+    "kind": "Lemma",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 124,
+    "statement": "The invariants of a game form a group.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.9",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 136,
+    "statement": "$\\Gamma$ is \\textit{weakly anonymous} if for each $i \\in N$, $\\pi \\in S_{N-\\{i\\}}$, $u_i = u_i \\circ \\pi$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.10",
+    "kind": "Example",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 140,
+    "statement": "\\label{weaklyanoneg}\n    Weakly Anonymous 3-player game.\n    \\begin{center}\n    \\begin{game}{2}{2}[$(a,,)$]\n     \\> $a$      \\> $b$ \\\\\n        $a$   \\> $0,1,2$  \\> $4,6,7$ \\\\\n        $b$   \\> $4,5,8$  \\> $9,12,14$\n    \\end{game}\n    \\hspace*{10mm}\n    \\begin{game}{2}{2}[$(b,,)$]\n     \\> $a$     \\> $b$ \\\\\n        $a$   \\> $3,6,8$ \\> $10,11,14$ \\\\\n        $b$   \\> $10,12,13$ \\> $15,16,17$\n    \\end{game}\n    \\end{center}\n    The reader may like to verify that $u_i = u_i \\circ (jk)$ for all distinct $i, j, k \\in N$. For example, $u_1(a,b,a) = 4 = u_1\\bigl((23)(a,b,a)\\bigr) = u_1(a,a,b)$. Since $S_{N-\\{i\\}} = \\{e, (jk)\\}$ for all $i \\in N$, $\\Gamma$ is weakly anonymous.\n\n    When we say that players do not distinguish between their opponents, we mean for example that when playing $a$, player $1$ is indifferent between the strategy profiles $(a,a,b)$ and $(a,b,a)$.",
+    "labels": [
+      "weaklyanoneg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.11",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 162,
+    "statement": "$\\Gamma$ is \\textit{anonymous} if for each $i \\in N$, $\\pi \\in S_N$, $u_i = u_i \\circ \\pi$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.12",
+    "kind": "Example",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 166,
+    "statement": "\\label{anoneg}\n        Anonymous 3-player game.\n        \\begin{center}\n        \\begin{game}{2}{2}[$(a,,)$]\n                  \\> $a$      \\> $b$ \\\\\n            $a$   \\> $0,1,2$  \\> $3,4,5$ \\\\\n            $b$   \\> $3,4,5$  \\> $6,7,8$\n        \\end{game}\n        \\hspace*{10mm}\n        \\begin{game}{2}{2}[$(b,,)$]\n                  \\> $a$     \\> $b$ \\\\\n            $a$   \\> $3,4,5$ \\> $6,7,8$ \\\\\n            $b$   \\> $6,7,8$ \\> $9,10,11$\n        \\end{game}\n        \\end{center}\n        The reader may like to verify the orbits of $A$ are given by $A/S_N = \\bigl\\{\\{(a,a,a)\\}, \\newline\\{(a,a,b), (a,b,a), (b,a,a)\\}, \\{(a,b,b), (b,a,b), (b,b,a)\\}, \\{(b,b,b)\\}\\bigr\\}$ and that each player has the same payoff for each orbit in $A/S_N$.\n\n        For example, let $\\pi = (123)$, then we have $\\pi(s_1, s_2, s_3) = (s_{\\pi^{-1}(1)}, s_{\\pi^{-1}(2)}, s_{\\pi^{-1}(3)}) = (s_3, s_1, s_2)$ giving us $\\pi(a,a,b) = (b,a,a)$.",
+    "labels": [
+      "anoneg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.13",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 188,
+    "statement": "$\\Gamma$ is \\textit{fully anonymous} if for each $i, j \\in N$, $\\pi \\in S_N$, $u_i = u_j \\circ \\pi$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.14",
+    "kind": "Example",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 192,
+    "statement": "Fully anonymous 3-player game.\n        \\begin{center}\n        \\begin{game}{2}{2}[$(a,,)$]\n                  \\> $a$      \\> $b$ \\\\\n            $a$   \\> $1,1,1$  \\> $2,2,2$ \\\\\n            $b$   \\> $2,2,2$  \\> $3,3,3$\n        \\end{game}\n        \\hspace*{10mm}\n        \\begin{game}{2}{2}[$(b,,)$]\n                  \\> $a$     \\> $b$ \\\\\n            $a$   \\> $2,2,2$ \\> $3,3,3$ \\\\\n            $b$   \\> $3,3,3$ \\> $4,4,4$\n        \\end{game}\n        \\end{center}\n        The orbits of $A$ for the above game are the same as in Example \\ref{anoneg}, however now all players have the same payoff for each orbit.",
+    "labels": [],
+    "explicit_refs": [
+      "anoneg"
+    ],
+    "citations": []
+  },
+  {
+    "id": "3.15",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 218,
+    "statement": "$\\Gamma$ is \\textit{standard symmetric} \\cite{NoahXE} if there exists a transitive subgroup $H$ of the player permutations such that for each $i \\in N$ and $\\pi \\in H$, $u_i = u_{\\pi(i)} \\circ \\pi$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": [
+      "NoahXE"
+    ]
+  },
+  {
+    "id": "3.16",
+    "kind": "Example",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 224,
+    "statement": "\\label{stdsymeg} Standard symmetric 3-player game.\n        \\begin{center}\n        \\begin{game}{2}{2}[$(a,,)$]\n                \\>  $a$      \\>  $b$      \\\\\n            $a$ \\>  $1,1,1$  \\>  $3,7,4$  \\\\\n            $b$ \\>  $7,4,3$  \\>  $6,5,8$\n        \\end{game}\n        \\hspace*{5mm}\n        \\begin{game}{2}{2}[$(b,,)$]\n                \\>  $a$      \\>  $b$      \\\\\n            $a$ \\>  $4,3,7$  \\>  $8,6,5$  \\\\\n            $b$ \\>  $5,8,6$  \\>  $2,2,2$\n        \\end{game}\n        \\end{center}\n\n        The reader may like to verify that $\\Gamma$ is invariant under $(123)$ and not invariant under $(12)$. Since $\\langle (123)\\rangle = \\{e, (123), (132)\\}$ is a transitive subgroup of $S_3$, $\\Gamma$ is standard symmetric. Furthermore since $(12)$ is not an invariant the players are not indifferent between all possible position arrangements.\n\n        A useful analogy for considering the fairness of $\\Gamma$ is a game with three players sitting in a circle such that each player is indifferent between circular rotations of positions, and not indifferent to their opponents swapping positions. A similar notion of fairness/symmetry is often used by the author when coding map generators for artificial intelligence programming contests where users write bots to play games against each other. The maps are two dimensional grids with the edges wrapped, ie. on the surface of a torus, and constructed in such a way that everyone is indifferent between some reorderings of the players.",
+    "labels": [
+      "stdsymeg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.17",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 246,
+    "statement": "\\label{fullsymdef}\n    $\\Gamma$ is \\textit{fully symmetric} if it is invariant under $S_N$.",
+    "labels": [
+      "fullsymdef"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.18",
+    "kind": "Theorem",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 254,
+    "statement": "\\label{basicsymequivthm}\n    The following conditions are equivalent:\n    \\begin{enumerate}\n        \\item $\\Gamma$ is fully symmetric;\n        \\item $\\Gamma$ is standard symmetric and weakly anonymous;\n        \\item For each $i \\in N$ and $\\pi \\in S_N$, $u_{\\pi(i)} = u_i \\circ \\pi^{-1}$;\n        \\item For each $i \\in N$ and $\\tau \\in T_N$, $u_i = u_{\\tau(i)} \\circ \\tau$; and\n        \\item For each $i \\in N$ and $\\tau \\in T_N$, $u_i = u_{\\tau(i)} \\circ \\tau^{-1}$.\n    \\end{enumerate}",
+    "labels": [
+      "basicsymequivthm"
+    ],
+    "explicit_refs": [
+      "utilityactionprop"
+    ],
+    "citations": []
+  },
+  {
+    "id": "3.19",
+    "kind": "Lemma",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 281,
+    "statement": "\\label{brandtlemma}\n    \\cite{brandt2009symmetries} The following conditions are equivalent:\n    \\begin{enumerate}\n        \\item $\\Gamma$ is fully anonymous; and\n        \\item $\\Gamma$ is fully symmetric and $u_i = u_j$ for all $i, j \\in N$.\n    \\end{enumerate}",
+    "labels": [
+      "brandtlemma"
+    ],
+    "explicit_refs": [],
+    "citations": [
+      "brandt2009symmetries"
+    ]
+  },
+  {
+    "id": "3.20",
+    "kind": "Lemma",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 289,
+    "statement": "\\label{DMlemma}\n    Let $\\pi, \\tau \\in S_N$. If $u_i = u_{\\pi(i)} \\circ \\pi^{-1} = u_{\\tau(i)} \\circ \\tau^{-1}$ for all $i \\in N$ then $u_i = u_{(\\tau \\circ \\pi)(i)} \\circ (\\pi \\circ \\tau)^{-1}$ for all $i \\in N$.",
+    "labels": [
+      "DMlemma"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.21",
+    "kind": "Theorem",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 296,
+    "statement": "\\label{DMprop}\n    If $n \\geq 3$ then the following conditions are equivalent:\n    \\begin{enumerate}\n        \\item $\\Gamma$ is fully symmetric and $u_i = u_j$ for all $i, j \\in N$; and\n        \\item For each $i \\in N$ and $\\pi \\in S_N$, $u_i = u_{\\pi(i)} \\circ \\pi^{-1}$.\n    \\end{enumerate}",
+    "labels": [
+      "DMprop"
+    ],
+    "explicit_refs": [
+      "DMlemma"
+    ],
+    "citations": []
+  },
+  {
+    "id": "3.22",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 318,
+    "statement": "A $2$-player zero-sum game is \\textit{fair} \\cite[17.11, 28.1, 28.2]{VNM} if its value is $0$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": [
+      "VNM"
+    ]
+  },
+  {
+    "id": "3.23",
+    "kind": "Proposition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 322,
+    "statement": "\\cite{VNM} If a $2$-player zero-sum game is fully symmetric then it is fair.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": [
+      "VNM"
+    ]
+  },
+  {
+    "id": "3.24",
+    "kind": "Definition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 326,
+    "statement": "We shall refer to a game $\\Gamma = (N, A, u)$ as:\n    \\begin{enumerate}\n        \\item \\textit{maximin fair} if $\\underline{u}_i = \\underline{u}_j$ for all $i, j \\in N$;\n        \\item \\textit{minimax fair} if $\\overline{u}_i = \\overline{u}_j$ for all $i, j \\in N$;\n        \\item \\textit{very-weakly-fair} if $\\underline{u}_i = \\underline{u}_j$ and $\\overline{u}_i = \\overline{u}_j$ for all $i, j \\in N$;\n        \\item \\textit{weakly-fair} if $\\underline{u}_i = \\overline{u}_i = \\underline{u}_j = \\overline{u}_j$ for all $i, j \\in N$;\n        \\item \\textit{fair} if $\\underline{u}_i = \\overline{u}_i = 0$ for all $i \\in N$;\n        \\item \\textit{standard fair} if utility values are preserved under a transitive subgroup of the player permutations;\n        \\item \\textit{fully fair} if utility values are preserved under all player permutations;\n        \\item \\textit{standard ordinally fair} if there is a transitive subgroup of player permutations that preserve preferences over pure strategy profiles;\n        \\item \\textit{fully ordinally fair} if all player permutations preserve preferences over pure strategy profiles;\n        \\item \\textit{standard cardinally fair} if there is a transitive subgroup of player permutations that preserve preferences over mixed strategy profiles; and\n        \\item \\textit{fully cardinally fair} if all player permutations preserve preferences over mixed strategy profiles.\n    \\end{enumerate}",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "3.25",
+    "kind": "Proposition",
+    "source": "section-label-dependent-symmetric-games.tex",
+    "line": 347,
+    "statement": "\\label{prop:standsymgamesaremaxminandminmaxfair}\n    If a (zero-sum) game $\\Gamma = (N, A, u)$ is standard symmetric then it is maximin fair and minimax fair.",
+    "labels": [
+      "prop:standsymgamesaremaxminandminmaxfair"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.1",
+    "kind": "Example",
+    "source": "section-bijections.tex",
+    "line": 8,
+    "statement": "\\label{MPeg}\n    Matching Pennies\n    \\begin{center}\n        \\begin{game}{2}{2}\n                  \\> $H$    \\> $T$ \\\\\n            $H$   \\> $1,-1$  \\> $-1,1$ \\\\\n            $T$   \\> $-1,1$  \\> $1,-1$\n        \\end{game}\n    \\end{center}\n    It is clear just by looking at the payoff matrix that Matching Pennies is fair, yet inside our label dependent framework the only invariant is the identity permutation, a problem that persists if we swap the strategy labels for either or both of the players.",
+    "labels": [
+      "MPeg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.2",
+    "kind": "Definition",
+    "source": "section-bijections.tex",
+    "line": 21,
+    "statement": "A \\textit{game bijection} from $\\Gamma_1 = (N, A, u)$ to $\\Gamma_2 = (M, B, v)$ consists of a bijection $\\pi:N\\rightarrow M$ and for each player $i \\in N$, a bijection $\\tau_i:A_i\\rightarrow B_{\\pi(i)}$, which we denote as $\\bigl(\\pi; (\\tau_i)_{i \\in N}\\bigr)$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.3",
+    "kind": "Example",
+    "source": "section-bijections.tex",
+    "line": 27,
+    "statement": "\\label{egisomgames}\n        Consider the following $2$-player games.\n        \\begin{center}\n            \\begin{game}{2}{2}[$\\Gamma_1$]\n                        \\> $c$  \\> $d$ \\\\\n                $a$   \\> $1,2$  \\> $3,4$ \\\\\n                $b$   \\> $5,6$  \\> $7,8$\n            \\end{game}\n            \\hspace*{10mm}\n            \\begin{game}{2}{2}[$\\Gamma_2$]\n                        \\> $h$ \\> $i$ \\\\\n                $e$   \\> $4,3$ \\> $8,7$ \\\\\n                $f$   \\> $2,1$ \\> $6,5$ \\\\\n            \\end{game}\n        \\end{center}\n\n        Given $(a, c) \\in A$ and $g = \\bigl((12) ; \\bigl(\\begin{smallmatrix} a & b \\\\ h & i \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ f & e \\end{smallmatrix}\\bigr)\\bigr) \\in \\bij(\\Gamma_1, \\Gamma_2)$, $g(a,c) = (f,h)$.",
+    "labels": [
+      "egisomgames"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.4",
+    "kind": "Example",
+    "source": "section-bijections.tex",
+    "line": 48,
+    "statement": "Consider Example \\ref{stdsymeg} except with strategy labels $A_2 =\\{c, d\\}$ and $A_3 = \\{e, f\\}$ for players $2$ and $3$ respectively. We compose and invert bijections $g = \\bigl((123) ; \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ b & a \\end{smallmatrix}\\bigr)\\bigr)$, $h = \\bigl((12) ; \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ a & b \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ f & e \\end{smallmatrix}\\bigr)\\bigr) \\in S_{\\Gamma}$ as follows:\n        \\begin{align*}\n\n            h \\circ g &= \\bigl((12) ; \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ a & b \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ f & e \\end{smallmatrix}\\bigr)\\bigr) \\circ \\bigl((123) ; \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ b & a \\end{smallmatrix}\\bigr)\\bigr) \\\\\n                &= \\bigl((12) \\circ (123) ; \\bigl(\\begin{smallmatrix} c & d \\\\ a & b \\end{smallmatrix}\\bigr) \\circ \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ f & e \\end{smallmatrix}\\bigr) \\circ \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr) \\circ \\bigl(\\begin{smallmatrix} e & f \\\\ b & a \\end{smallmatrix}\\bigr)\\bigr)\\\\\n                &= \\bigl((23) ; \\bigl(\\begin{smallmatrix} a & b \\\\ b & a \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ f & e \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ d & c \\end{smallmatrix}\\bigr)\\bigr) \\text{; and} \\\\\n            g^{-1} &= \\bigl((123) ; \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ b & a \\end{smallmatrix}\\bigr)\\bigr)^{-1} \\\\\n                   &= \\bigl((123)^{-1} ; \\bigl(\\begin{smallmatrix} e & f \\\\ b & a \\end{smallmatrix}\\bigr)^{-1}, \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr)^{-1}, \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr)^{-1}\\bigr)\\\\\n                   &= \\bigl((132) ; \\bigl(\\begin{smallmatrix} a & b \\\\ f & e \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ b & a \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ c & d \\end{smallmatrix}\\bigr)\\bigr).\n        \\end{align*}",
+    "labels": [],
+    "explicit_refs": [
+      "stdsymeg"
+    ],
+    "citations": []
+  },
+  {
+    "id": "4.5",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 61,
+    "statement": "$(h \\circ g)(s) = h(g(s))$ for all $s \\in A$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.6",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 75,
+    "statement": "$u_{(h \\circ g)(i)} \\circ (h \\circ g) = (u_{h(g(i))} \\circ h) \\circ g$ for all $i \\in N$.",
+    "labels": [],
+    "explicit_refs": [
+      "utilityactionprop"
+    ],
+    "citations": []
+  },
+  {
+    "id": "4.7",
+    "kind": "Theorem",
+    "source": "section-bijections.tex",
+    "line": 83,
+    "statement": "\\label{bijgroupoidthm}\n        Game bijections form a groupoid.",
+    "labels": [
+      "bijgroupoidthm"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.8",
+    "kind": "Definition",
+    "source": "section-bijections.tex",
+    "line": 106,
+    "statement": "A bijection $g \\in \\bij(\\Gamma_1, \\Gamma_2)$ is a \\textit{game isomorphism} if $u_i = v_{g(i)}\\circ g$ for all $i \\in N$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.9",
+    "kind": "Theorem",
+    "source": "section-bijections.tex",
+    "line": 112,
+    "statement": "Game isomorphisms form a groupoid.",
+    "labels": [],
+    "explicit_refs": [
+      "bijgroupoidthm"
+    ],
+    "citations": []
+  },
+  {
+    "id": "4.10",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 122,
+    "statement": "\\label{isocorollary}\n        If $\\Gamma_1 \\cong \\Gamma_2 \\cong \\Gamma_3$ then $\\isom(\\Gamma_1, \\Gamma_2) \\cong \\isom(\\Gamma_2, \\Gamma_3)$.",
+    "labels": [
+      "isocorollary"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.11",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 135,
+    "statement": "\\label{cosetprop}\n    Two bijections $g, h \\in G$ have the same player permutation if and only if they are in the same coset of $G/G_N$.",
+    "labels": [
+      "cosetprop"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.12",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 144,
+    "statement": "\\label{cosetcor}\n    $G/G_N \\cong \\overrightarrow{G}$.",
+    "labels": [
+      "cosetcor"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.13",
+    "kind": "Definition",
+    "source": "section-bijections.tex",
+    "line": 155,
+    "statement": "A subgroup $G$ of $S_{\\Gamma}$ is \\textit{strategy trivial} \\cite{NoahXE} if for each $i \\in N$, $g(s_i) = s_i$ for all $g \\in G_i$ and $s_i \\in A_i$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": [
+      "NoahXE"
+    ]
+  },
+  {
+    "id": "4.14",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 159,
+    "statement": "\\label{NoahLemma} \\cite{NoahXE}\n    If $G$ is strategy trivial then for each $g, h \\in G$ such that $g(i) = h(i)$, $g(s_i) = h(s_i)$ for all $s_i \\in A_i$.",
+    "labels": [
+      "NoahLemma"
+    ],
+    "explicit_refs": [],
+    "citations": [
+      "NoahXE"
+    ]
+  },
+  {
+    "id": "4.15",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 166,
+    "statement": "\\label{cosetprop2}\n    If $G$ is strategy trivial then $G_N = \\{\\id_{\\Gamma}\\}$.",
+    "labels": [
+      "cosetprop2"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.16",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 172,
+    "statement": "\\label{NoahCor}\n    If $G \\leq S_{\\Gamma}$ is strategy trivial then for each $i \\in N$ and $\\tau \\in \\overrightarrow{G}$, there exists $g_{i\\tau(i)} \\in \\bij(A_i, A_{\\tau(i)})$ such that $G = \\{(\\pi; (g_{i\\pi(i)})_{i \\in N}): \\pi \\in \\overrightarrow{G}\\}$.",
+    "labels": [
+      "NoahCor"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.17",
+    "kind": "Definition",
+    "source": "section-bijections.tex",
+    "line": 178,
+    "statement": "A \\textit{matching of $A_1, \\ldots, A_n$} is a relation $M \\subseteq \\times_{i \\in N} A_i$ which is $i$-total and $i$-unique for all $i \\in N$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.18",
+    "kind": "Example",
+    "source": "section-bijections.tex",
+    "line": 182,
+    "statement": "\\label{matchingeg}\nLet $A_1 = \\{a, b\\}$, $A_2 = \\{c, d\\}$ and $A_3 = \\{e, f\\}$. One matching of $A_1 \\times A_2 \\times A_3$ is $M = \\{(a,d,f), (b,c,e)\\}$.\n\\begin{center}\n\\begin{tikzpicture}\n    nodes={draw, ultra thick}\n    \\node (a) at (0,0) {$a$};   \\node (c) at (1,0) {$c$};   \\node (e) at (2,0) {$e$};\n    \\node (b) at (0,-0.5) {$b$};    \\node (d) at (1,-0.5) {$d$};    \\node (f) at (2,-0.5) {$f$};\n    \\draw (a) -- (d) -- (f);\n    \\draw (b) -- (c) -- (e);\n\\end{tikzpicture}\n\\end{center}",
+    "labels": [
+      "matchingeg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.19",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 199,
+    "statement": "$\\{M_{ij}: i, j \\in N\\}$ is a groupoid.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.20",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 210,
+    "statement": "\\label{matchinghomoprop}\n    $M:S_N\\rightarrow{S_{\\Gamma}}$ is a homomorphism.",
+    "labels": [
+      "matchinghomoprop"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.21",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 217,
+    "statement": "$M_{\\pi^{-1}} = M_{\\pi}^{-1}$ for all $\\pi \\in S_N$.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.22",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 221,
+    "statement": "\\label{matchingfixedpointlemma}\n    For each $\\pi \\in S_N$, $M_{\\pi}(s) = s$ for all $s \\in M$.",
+    "labels": [
+      "matchingfixedpointlemma"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.23",
+    "kind": "Theorem",
+    "source": "section-bijections.tex",
+    "line": 230,
+    "statement": "\\label{strattrivmatchingthm}\n    Let $G \\leq S_{\\Gamma}$ be player transitive. There exists a matching $M$ such that $M_{\\overrightarrow{G}} = G$ if and only if $G$ is strategy trivial.",
+    "labels": [
+      "strattrivmatchingthm"
+    ],
+    "explicit_refs": [
+      "matchinghomoprop",
+      "NoahCor"
+    ],
+    "citations": []
+  },
+  {
+    "id": "4.24",
+    "kind": "Corollary",
+    "source": "section-bijections.tex",
+    "line": 243,
+    "statement": "The following conditions are equivalent:\n    \\begin{enumerate}\n        \\item There exists weakly anonymous $\\Gamma'$ such that $\\Gamma \\cong \\Gamma'$;\n        \\item There exists player $n$-transitive and strategy trivial $G \\leq \\Gamma$ such that for each $i \\in N$ and $g \\in G_i$, $u_i = u_i \\circ g$; and\n        \\item There exists a matching $M$ such that for each $i \\in N$ and $\\pi \\in S_{N-\\{i\\}}$, $u_i = u_i \\circ M_{\\pi}$.\n    \\end{enumerate}",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.25",
+    "kind": "Example",
+    "source": "section-bijections.tex",
+    "line": 254,
+    "statement": "\\begin{enumerate}\n        \\item If $m = n = 2$ then, letting $A_1 = \\{a, b\\}$ and $A_2 = \\{c, d\\}$,\n        \\begin{align*}\n            M(2, 2) = \\bigl\\{\\{(a, c), (b, d)\\}, \\{(a, d), (b, c)\\}\\bigr\\}.\n        \\end{align*}\n        \\item If $m = 3$ and $n = 2$ then, letting $A_1 = \\{a, b, c\\}$ and $A_2 = \\{d, e, f\\}$, \\\n        \\begin{align*}\n            M(2, 3) = \\bigl\\{&\\{(a, d), (b, e), (c, f)\\}, \\{(a, d), (b, f), (c, e)\\}, \\{(a, e), (b, d), (c, f)\\}, \\\\\n                        &\\{(a, e), (b, f), (c, d)\\}, \\{(a, f), (b, d), (c, e)\\}, \\{(a, f), (b, e), (c, d)\\}\\bigr\\}.\n        \\end{align*}\n    \\end{enumerate}",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.26",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 270,
+    "statement": "\\label{matchinglemma1}\n    For each $n \\geq 2$: $M(n, 2)$ is a partition of $A$; and $|M(n, 2)| = 2^{n-1}$.",
+    "labels": [
+      "matchinglemma1"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.27",
+    "kind": "Lemma",
+    "source": "section-bijections.tex",
+    "line": 277,
+    "statement": "\\label{matchinglemma2}\n    For each $n \\geq 2$ and $m \\geq 3$, $|M(n, m)| = m^{n-1}|M(n, m-1)|$.",
+    "labels": [
+      "matchinglemma2"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "4.28",
+    "kind": "Theorem",
+    "source": "section-bijections.tex",
+    "line": 284,
+    "statement": "For each $m, n \\geq 2$, $|M(n, m)| = (m!)^{n-1}$.",
+    "labels": [],
+    "explicit_refs": [
+      "matchinglemma1",
+      "matchinglemma2"
+    ],
+    "citations": []
+  },
+  {
+    "id": "5.1",
+    "kind": "Corollary",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 5,
+    "statement": "\\label{indchar1}\n    The following conditions are equivalent:\n    \\begin{enumerate}\n        \\item There exists standard symmetric $\\Gamma'$ such that $\\Gamma \\cong \\Gamma'$;\n        \\item $\\Gamma$ has a player transitive and strategy trivial subgroup $G$; and\n        \\item There exists a matching $M$ and player transitive $T \\leq S_N$ such that $M_{T} \\leq \\Aut(\\Gamma)$.\n    \\end{enumerate}",
+    "labels": [
+      "indchar1"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.2",
+    "kind": "Corollary",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 14,
+    "statement": "\\label{indchar2}\n    The following conditions are equivalent:\n    \\begin{enumerate}\n        \\item There exists fully symmetric $\\Gamma'$ such that $\\Gamma \\cong \\Gamma'$;\n        \\item $\\Gamma$ has a player $n$-transitive and strategy trivial subgroup $G$; and\n        \\item There exists a matching $M$ such that $M_{S_N} \\leq \\Aut(\\Gamma)$.\n    \\end{enumerate}",
+    "labels": [
+      "indchar2"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.3",
+    "kind": "Corollary",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 25,
+    "statement": "If $\\Gamma$ is standard symmetric then there exists a matching $M$ such that for each $s \\in M$, $u_i(s) = u_j(s)$ for all $i, j \\in N$.",
+    "labels": [],
+    "explicit_refs": [
+      "matchingfixedpointlemma"
+    ],
+    "citations": []
+  },
+  {
+    "id": "5.4",
+    "kind": "Definition",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 34,
+    "statement": "A game is \\textit{symmetric} \\cite{NoahXE} if its automorphism group is player transitive and \\textit{$n$-transitively symmetric} if its automorphism group is player $n$-transitive.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": [
+      "NoahXE"
+    ]
+  },
+  {
+    "id": "5.5",
+    "kind": "Example",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 38,
+    "statement": "The automorphism group of Matching Pennies in Example \\ref{MPeg} is \\begin{align*}\n        \\Aut(\\Gamma) = \\langle &\\bigl((12) ; \\bigl(\\begin{smallmatrix} H & T \\\\ H & T \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} H & T \\\\ T & H \\end{smallmatrix}\\bigr)\\bigr)\\rangle \\\\\n        = \\{ &\\bigl(e ; \\bigl(\\begin{smallmatrix} H & T \\\\ H & T \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} H & T \\\\ H & T \\end{smallmatrix}\\bigr)\\bigr),\n        \\bigl(e ; \\bigl(\\begin{smallmatrix} H & T \\\\ T & H \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} H & T \\\\ T & H \\end{smallmatrix}\\bigr)\\bigr), \\\\\n        &\\bigl((12) ; \\bigl(\\begin{smallmatrix} H & T \\\\ H & T \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} H & T \\\\ T & H \\end{smallmatrix}\\bigr)\\bigr),\n        \\bigl((12) ; \\bigl(\\begin{smallmatrix} H & T \\\\ T & H \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} H & T \\\\ H & T \\end{smallmatrix}\\bigr)\\bigr) \\}.\n    \\end{align*}\n    Since $\\Aut(\\Gamma)$ is player transitive, is not strategy trivial and contains no proper transitive subgroups, Matching Pennies is an $n$-transitively non-standard symmetric game.",
+    "labels": [],
+    "explicit_refs": [
+      "MPeg"
+    ],
+    "citations": []
+  },
+  {
+    "id": "5.6",
+    "kind": "Proposition",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 52,
+    "statement": "\\label{subisoimpliesinter}\n    If $\\Gamma$ has a subgroup $G$ isomorphic to $S_N$ with $G_N = \\{\\id_{\\Gamma}\\}$ then it is $n$-transitively standard symmetric.",
+    "labels": [
+      "subisoimpliesinter"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.7",
+    "kind": "Definition",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 74,
+    "statement": "A \\textit{division} of a $2$-dimensional shape in to $n \\in \\mathbb{Z}^+$ colours is a partition of the shape in to $n$ regions, each region coloured with a unique colour.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.8",
+    "kind": "Definition",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 80,
+    "statement": "An \\textit{automorphism} of a shape division in to $n$ colours is any combination of rotating and/or reflecting the divided/coloured shape that leads to the exact same shape with the same division.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.9",
+    "kind": "Definition",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 92,
+    "statement": "We shall refer to the division of a $2$-dimensional shape in to $n \\in \\mathbb{Z}^+$ colours as:\n    \\begin{enumerate}\n        \\item \\textit{fair} if each colour/region fills the same area;\n        \\item \\textit{symmetric} if the automorphism group of the shape division is non-trivial; and\n        \\item \\textit{strongly symmetric} if the shape division has an automorphism that is not the identity but does preserve the colours of permuted regions, ie. the associated colour permutation is the identity.\n    \\end{enumerate}",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.10",
+    "kind": "Definition",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 161,
+    "statement": "We shall refer to the division of a $2$-dimensional shape in to $n \\in \\mathbb{Z}^+$ colours as:\n    \\begin{enumerate}\n        \\item \\textit{transitively symmetric} if every colour permutation in a transitive subgroup of all colour permutations is associated to at least one automorphism of the shape division; and\n        \\item \\textit{$n$-transitively symmetric} if every colour permutation is associated to at least one automorphism of the shape division.\n    \\end{enumerate}",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.11",
+    "kind": "Theorem",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 182,
+    "statement": "If a two person zero-sum game $\\Gamma$ is symmetric then it is fair (as mentioned earlier, this result is also in von Neumann and Morgenstern \\cite[Pages 165-166]{VNM}).",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": [
+      "VNM"
+    ]
+  },
+  {
+    "id": "5.12",
+    "kind": "Example",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 213,
+    "statement": "\\label{constructeg}\n    Let $G = \\{\\bigl((12) ; \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ a & b \\end{smallmatrix}\\bigr)\\bigr)\\}$. For $\\Gamma(G)$ we require:\n    \\begin{align*}\n        u_1(a, c) &= u_2(a, c) = \\alpha   &   u_1(a, d) &= u_2(b, c) = \\gamma \\\\\n        u_1(b, c) &= u_2(a, d) = \\beta   &   u_1(b, d) &= u_2(b, d) = \\delta\n    \\end{align*}\n    \\begin{center}\n    \\begin{game}{2}{2}[$\\Gamma(G)$]\n              \\> $c$  \\> $d$ \\\\\n        $a$   \\> $\\alpha, \\alpha $  \\> $\\gamma, \\beta $ \\\\\n        $b$   \\> $\\beta, \\gamma $  \\> $\\delta, \\delta $\n    \\end{game}\n    \\end{center}\n\n    We call $\\alpha, \\beta, \\gamma, \\delta \\in \\mathbb{R}$ the \\textit{parameters} of $\\Gamma(G)$. Note that distinct parameter choices may lead to strategically inequivalent games, even though both games will have the same automorphism group. All fully symmetric $2$-player $2$-strategy games are isomorphic to $\\Gamma(G)$ for at least one choice of parameters, hence $\\Gamma(G)$ is a general form for fully symmetric $2$-player $2$-strategy games, or equivalently standard symmetric $2$-player $2$-strategy games.",
+    "labels": [
+      "constructeg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.13",
+    "kind": "Example",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 331,
+    "statement": "\\label{egntransstandnonfull}\n    An $n$-transitively non-fully standard symmetric $3$-player game.\n    \\begin{center}\n    \\begin{game}{2}{2}[$(a,,)$]\n            \\>  $e$      \\>  $f$      \\\\\n        $c$ \\>  $\\alpha,\\alpha,\\alpha$  \\>  $\\beta,\\gamma,\\delta$  \\\\\n        $d$ \\>  $\\gamma,\\delta,\\beta$  \\>  $\\delta,\\gamma,\\beta$\n    \\end{game}\n    \\hspace*{5mm}\n    \\begin{game}{2}{2}[$(b,,)$]\n            \\>  $e$      \\>  $f$      \\\\\n        $c$ \\>  $\\delta,\\beta,\\gamma$  \\>  $\\beta,\\delta,\\gamma$  \\\\\n        $d$ \\>  $\\gamma,\\beta,\\delta$  \\>  $\\alpha,\\alpha,\\alpha$\n    \\end{game}\n    \\end{center}\n\n    \\begin{align*}\n        G = \\{\\bigl((123) ; \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ a & b \\end{smallmatrix}\\bigr)\\bigr), \\bigl((12) ; \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ b & a \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ f & e \\end{smallmatrix}\\bigr)\\bigr)\\}\n    \\end{align*}\n\n    Since $\\langle{G}\\rangle$ is $n$-transitive, and the first generator generates a player transitive and strategy trivial group with the matching $M  = \\{(a,c,e), (b,d,f)\\}$, $\\Gamma(G)$ is $n$-transitively and standard symmetric. Furthermore since the bijections induced by $M$ from player transpositions are not automorphisms, $\\Gamma(G)$ is non-fully symmetric.",
+    "labels": [
+      "egntransstandnonfull"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.14",
+    "kind": "Example",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 468,
+    "statement": "\\label{OTNSeg}\nTwo only-transitive non-standard symmetric $4$-player games.\n\\begin{center}\n  \\begin{game}{2}{2}[$(a,c,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\alpha,\\beta,\\gamma,\\delta$  \\>  $\\rho,\\tau,\\sigma,\\omega$  \\\\\n    $f$  \\>  $\\sigma,\\omega,\\rho,\\tau$  \\>  $\\omega,\\rho,\\tau,\\sigma$\n  \\end{game}\n  \\hspace*{5mm}\n  \\begin{game}{2}{2}[$(a,d,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\delta,\\alpha,\\beta,\\gamma$  \\>  $\\tau,\\sigma,\\omega,\\rho$  \\\\\n    $f$  \\>  $\\gamma,\\delta,\\alpha,\\beta$  \\>  $\\beta,\\gamma,\\delta,\\alpha$\n  \\end{game}\n  \\\\\n  \\begin{game}{2}{2}[$(b,c,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\beta,\\gamma,\\delta,\\alpha$  \\>  $\\gamma,\\delta,\\alpha,\\beta$  \\\\\n    $f$  \\>  $\\tau,\\sigma,\\omega,\\rho$  \\>  $\\delta,\\alpha,\\beta,\\gamma$\n  \\end{game}\n  \\hspace*{5mm}\n  \\begin{game}{2}{2}[$(b,d,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\omega,\\rho,\\tau,\\sigma$  \\>  $\\sigma,\\omega,\\rho,\\tau$  \\\\\n    $f$  \\>  $\\rho,\\tau,\\sigma,\\omega$  \\>  $\\alpha,\\beta,\\gamma,\\delta$\n  \\end{game}\n\\end{center}\n\n\\[ G = \\{ \\bigl((1234) ; \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ g & h \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ a & b \\end{smallmatrix}\\bigr)\\bigr)\\} \\]\n\nSince there does not exist any profile where the payoffs are equal and $\\langle{G}\\rangle$ is transitive, $\\Gamma(G)$ is non-standard symmetric. Now for the strategy profile $(a,c,e,g)$ we have payoffs $(\\alpha, \\beta, \\gamma, \\delta)$. If $\\Gamma(G)$ had an automorphism using $(23)$ then there would be a strategy profile $s \\in A$ with payoffs $(\\alpha, \\gamma, \\beta, \\delta)$. Since no such profile exists $\\Gamma(G)$ is only-transitive.\n\n\\begin{center}\n  \\begin{game}{2}{2}[$(a,c,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\alpha,\\alpha,\\beta,\\beta$  \\>  $\\gamma,\\delta,\\delta,\\gamma$  \\\\\n    $f$  \\>  $\\delta,\\gamma,\\gamma,\\delta$  \\>  $\\beta,\\beta,\\alpha,\\alpha$\n  \\end{game}\n  \\hspace*{5mm}\n  \\begin{game}{2}{2}[$(a,d,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\gamma,\\delta,\\delta,\\gamma$  \\>  $\\alpha,\\alpha,\\beta,\\beta$  \\\\\n    $f$  \\>  $\\beta,\\beta,\\alpha,\\alpha$  \\>  $\\delta,\\gamma,\\gamma,\\delta$\n  \\end{game}\n  \\\\\n  \\begin{game}{2}{2}[$(b,c,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\delta,\\gamma,\\gamma,\\delta$  \\>  $\\beta,\\beta,\\alpha,\\alpha$  \\\\\n    $f$  \\>  $\\alpha,\\alpha,\\beta,\\beta$  \\>  $\\gamma,\\delta,\\delta,\\gamma$\n  \\end{game}\n  \\hspace*{5mm}\n  \\begin{game}{2}{2}[$(b,d,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\beta,\\beta,\\alpha,\\alpha$  \\>  $\\delta,\\gamma,\\gamma,\\delta$  \\\\\n    $f$  \\>  $\\gamma,\\delta,\\delta,\\gamma$  \\>  $\\alpha,\\alpha,\\beta,\\beta$\n  \\end{game}\n\\end{center}\n\n\\begin{align*}\nG' = \\{ \\bigl((12) \\circ (34) &; \\bigl(\\begin{smallmatrix} a & b \\\\ d & c \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ a & b \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ h & g \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ e & f \\end{smallmatrix}\\bigr)\\bigr), \\\\\n               \\bigl((13) \\circ (24) &; \\bigl(\\begin{smallmatrix} a & b \\\\ f & e \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ h & g \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ a & b \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ c & d \\end{smallmatrix}\\bigr)\\bigr), \\\\\n               \\bigl((14) \\circ (23) &; \\bigl(\\begin{smallmatrix} a & b \\\\ h & g \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ f & e \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ a & b \\end{smallmatrix}\\bigr)\\bigr)\\}\n\\end{align*}\n\nThat $\\Gamma(G')$ is only-transitive non-standard symmetric follows by the same argument used for $\\Gamma(G)$.",
+    "labels": [
+      "OTNSeg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.15",
+    "kind": "Example",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 535,
+    "statement": "An $n$-transitively non-standard symmetric $4$-player game.\n\\begin{center}\n\\begin{game}{2}{2}[$(a,c,,)$]\n       \\>  $g$          \\>  $h$ \\\\\n    $e$  \\>  $\\alpha,\\beta,\\beta,\\beta$  \\>  $\\beta,\\alpha,\\beta,\\beta$  \\\\\n    $f$  \\>  $\\beta,\\beta,\\beta,\\alpha$  \\>  $\\beta,\\beta,\\beta,\\alpha$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(a,d,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\beta,\\beta,\\alpha,\\beta$  \\>  $\\beta,\\alpha,\\beta,\\beta$  \\\\\n    $f$  \\>  $\\beta,\\beta,\\alpha,\\beta$  \\>  $\\alpha,\\beta,\\beta,\\beta$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(b,c,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\alpha,\\beta,\\beta,\\beta$  \\>  $\\beta,\\beta,\\alpha,\\beta$  \\\\\n    $f$  \\>  $\\beta,\\alpha,\\beta,\\beta$  \\>  $\\beta,\\beta,\\alpha,\\beta$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(b,d,,)$]\n       \\>  $g$          \\>  $h$          \\\\\n    $e$  \\>  $\\beta,\\beta,\\beta,\\alpha$  \\>  $\\beta,\\beta,\\beta,\\alpha$  \\\\\n    $f$  \\>  $\\beta,\\alpha,\\beta,\\beta$  \\>  $\\alpha,\\beta,\\beta,\\beta$\n\\end{game}\n\\end{center}\n\n\\[G = \\{ \\bigl((1234) ; \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ h & g \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ a & b \\end{smallmatrix}\\bigr)\\bigr),\n               \\bigl((12) ; \\bigl(\\begin{smallmatrix} a & b \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ a & b \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ h & g \\end{smallmatrix}\\bigr)\\bigr)\\}\\]\n\n$\\Gamma(G)$ is $n$-transitive since $\\langle{G}\\rangle$ is $n$-transitive, and non-standard symmetric since there does not exist any profile where all players receive the same payoff.",
+    "labels": [],
+    "explicit_refs": [],
+    "citations": []
+  },
+  {
+    "id": "5.16",
+    "kind": "Example",
+    "source": "section-label-independent-symmetric-games.tex",
+    "line": 569,
+    "statement": "\\label{sixplayereg}\nAn only-transitive non-standard symmetric $6$-player game that has a subgroup $\\langle{G}\\rangle$ isomorphic to $\\overrightarrow{\\langle{G}\\rangle}$ with $\\langle{G}\\rangle_N = \\{\\id_{\\Gamma}\\}$.\n\n\\begin{center}\n\n\n\\begin{game}{2}{2}[$(a,c,e,g,,)$]\n    \\>$k$                 \\>$l$  \\\\\n    $i$\\>$1,2,1,2,1,2$     \\>$3,4,5,6,7,8$\\\\\n    $j$\\>$9,10,11,12,13,14$\\>$15,16,17,18,19,20$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(a,c,e,h,,)$]\n    \\>$k$                  \\>$l$ \\\\\n    $i$\\>$5,6,7,8,3,4$      \\>$20,15,19,17,18,16$\\\\\n    $j$\\>$21,22,23,24,25,26$\\>$27,27,28,28,28,27$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(a,c,f,g,,)$]\n    \\>$k$                  \\>$l$ \\\\\n    $i$\\>$11,12,13,14,9,10$ \\>$29,29,30,30,30,29$\\\\\n    $j$\\>$26,24,22,23,21,25$\\>$4,8,6,7,5,3$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(a,c,f,h,,)$]\n    \\>$k$                  \\>$l$ \\\\\n    $i$\\>$17,18,19,20,15,16$\\>$8,3,7,5,6,4$\\\\\n    $j$\\>$31,32,32,32,31,31$\\>$16,20,18,19,17,15$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(a,d,e,g,,)$]\n    \\>$k$                  \\>$l$   \\\\\n    $i$\\>$7,8,3,4,5,6$      \\>$18,16,20,15,19,17$\\\\\n    j\\>$30,29,29,29,30,30$\\>$6,4,8,3,7,5$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(a,d,e,h,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$19,17,18,16,20,15$\\>$32,31,32,31,32,31$\\\\\n    $j$\\>$13,11,12,10,14,9$ \\>$22,26,24,25,23,21$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(a,d,f,g,,)$]\n    \\>$k$                  \\>$l$   \\\\\n    $i$\\>$23,24,25,26,21,22$\\>$12,10,14,9,13,11$\\\\\n    $j$\\>$14,12,10,11,9,13$ \\>$2,2,2,1,1,1$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(a,d,f,h,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$28,28,28,27,27,27$\\>$24,25,23,21,22,26$\\\\\n    $j$\\>$25,23,24,22,26,21$\\>$10,14,12,13,11,9$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(b,c,e,g,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$13,14,9,10,11,12$ \\>$25,26,21,22,23,24$\\\\\n    $j$\\>$21,25,26,24,22,23$\\>$31,31,31,32,32,32$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(b,c,e,h,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$30,30,30,29,29,29$\\>$14,9,13,11,12,10$\\\\\n    $j$\\>$9,13,14,12,10,11$ \\>$26,21,25,23,24,22$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(b,c,f,g,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$22,23,21,25,26,24$\\>$10,11,9,13,14,12$\\\\\n    $j$\\>$27,28,27,28,27,28$\\>$16,17,15,19,20,18$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(b,c,f,h,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$6,7,5,3,4,8$      \\>$2,1,1,1,2,2$\\\\\n    $j$\\>$15,19,20,18,16,17$\\>$4,5,3,7,8,6$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(b,d,e,g,,)$]\n    \\>$k$                  \\>$l$  \\\\\n    $i$\\>$19,20,15,16,17,18$\\>$28,27,27,27,28,28$\\\\\n    $j$\\>$5,3,4,8,6,7$      \\>$17,15,16,20,18,19$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(b,d,e,h,,)$]\n    \\>$k$            \\>$l$ \\\\\n    $i$\\>$7,5,6,4,8,3$\\>$23,21,22,26,24,25$\\\\\n    $j$\\>$1,1,2,2,2,1$\\>$11,9,10,14,12,13$\n\\end{game}\n\\\\\n\\begin{game}{2}{2}[$(b,d,f,g,,)$]\n    \\>$k$                  \\>$l$ \\\\\n    $i$\\>$32,32,31,31,31,32$\\>$24,22,26,21,25,23$\\\\\n    $j$\\>$20,18,16,17,15,19$\\>$8,6,4,5,3,7$\n\\end{game}\n\\hspace*{5mm}\n\\begin{game}{2}{2}[$(b,d,f,h,,)$]\n    \\>$k$                  \\>$l$ \\\\\n    $i$\\>$18,19,17,15,16,20$\\>$12,13,11,9,10,14$\\\\\n    $j$\\>$3,7,8,6,4,5$      \\>$29,30,29,30,29,30$\n\\end{game}\n\\\\\n\\vspace{-6mm}\n\n\n\\end{center}\n\n\\begin{align*}\nG = \\{ \\bigl((14) \\circ (25); &\\bigl(\\begin{smallmatrix} a & b \\\\ h & g \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ i & j \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ f & e \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ b & a \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} i & j \\\\ c & d \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} k & l \\\\ l & k \\end{smallmatrix}\\bigr)\\bigr),\\\\\n               \\bigl((135) \\circ (246); &\\bigl(\\begin{smallmatrix} a & b \\\\ e & f \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} c & d \\\\ g & h \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} e & f \\\\ i & j \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} g & h \\\\ k & l \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} i & j \\\\ a & b \\end{smallmatrix}\\bigr), \\bigl(\\begin{smallmatrix} k & l \\\\ c & d \\end{smallmatrix}\\bigr)\\bigr)\\}\n\\end{align*}\n\nSince there does not exist any profile where the payoffs are equal and $\\langle{G}\\rangle$ is transitive, $\\Gamma$ is non-standard symmetric. Now the payoffs for $(a,c,e,g,i,k)$ are $(1, 2, 1, 2, 1, 2)$. If there was an automorphism for $(12)$ then there would be $s \\in A$ with payoffs $(2, 1, 1, 2, 1, 2)$. Since no such profile exists $\\Gamma$ is only-transitive. It can be verified that $\\langle{G}\\rangle$ has order $12$, which is equal to the order of $\\langle (14) \\circ (25), (135) \\circ (246)\\rangle$, hence $\\langle{G}\\rangle \\cong \\langle (14) \\circ (25), (135) \\circ (246)\\rangle$ and $\\langle{G}\\rangle_N = \\{\\id_{\\Gamma}\\}$.",
+    "labels": [
+      "sixplayereg"
+    ],
+    "explicit_refs": [],
+    "citations": []
+  }
+]

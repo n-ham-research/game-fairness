@@ -1,0 +1,39 @@
+\section{Utility invariance}
+Write $G_e,G_c,G_o$ for the exact, cardinal and ordinal automorphism groups.
+\begin{proposition}[U2: canonical representations]
+These are subgroups of the same typed-bijection group, with
+$G_e\le G_c\le G_o$. Let $c_i=(u_i-\min u_i)/(\max u_i-\min u_i)$ for
+nonconstant $u_i$, and $c_i=0$ otherwise. Let $r_i(s)$ be the zero-based rank
+of $u_i(s)$ among its distinct levels. Then
+\[
+G_c=\Aut_e(c),\qquad G_o=\Aut_e(r).
+\]
+\end{proposition}
+\begin{proof}
+Affine relations compose with positive slopes and invert; finite-range order
+bijections also compose and invert. A cardinal map transports extrema by the
+same affine relation and hence preserves $c$. Conversely equality of normalized
+tables reconstructs a positive affine relation, including the constant case.
+An increasing finite-range bijection carries the $k$th distinct level to the
+$k$th distinct level, giving the rank identity and its converse.
+\end{proof}
+
+The inclusions can be strict even for player transitivity. For binary actions
+and $k=s_0+s_1+s_2$, take $u_i=(i+1)k^2$. Every bare player permutation is
+cardinal, but distinct numerical ranges prevent exact player movement.
+Alternatively, $u=(k,k^2,k)$ has full ordinal player image, while incompatible
+normalized level spacings prevent cardinal maps moving player 1.
+
+\begin{proposition}[U3: focal-fixed invariance]
+An ordinal automorphism fixing player $i$ preserves $u_i$ exactly. Consequently
+$\ker(q|G_e)=\ker(q|G_c)=\ker(q|G_o)$.
+If $G_e$ is player transitive, then $G_e=G_c=G_o$.
+\end{proposition}
+\begin{proof}
+An increasing permutation of one finite ordered payoff range is the identity.
+This proves the first assertion and the kernel equality. Exact transitivity
+makes all players' numerical ranges identical. Any ordinal transport between
+these identical ordered lists must then preserve every level exactly.
+\end{proof}
+The normalizations represent preferences; they do not calibrate a participant's
+cross-role utility or justify expected rank as welfare.
