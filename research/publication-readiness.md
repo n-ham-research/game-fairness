@@ -18,3 +18,9 @@ Phase 7: manuscript expanded to include explicit model, opportunity theorem,
 pair-mask theorem and scoped cooperative comparison. Novelty remains
 unresolved; external proof review and source gaps preclude submission
 readiness. No submission authorized.
+
+Phase 8: main draft organized around observable opportunities, observation
+loss and shared intervention recovery. Ten-page local build visually checked.
+See phase8-report.md for prioritized questions and source limitations. All-r
+representation result remains research-only; no external review/author sign-off
+or submission authorization.

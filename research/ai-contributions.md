@@ -34,3 +34,10 @@ agent developed mask recovery and independently attacked root claims; a
 symmetry agent reviewed opportunity proofs read-only while owning the
 companion audit. Root reviewed information proofs. Same-family internal
 reviews are not external peer review or author sign-off.
+
+Phase 8: root authored behavior/utility/shared-intervention/coherence/coalition
+comparisons, source comparisons, report and manuscript integration. Observation
+agent authored O1–O5 and its two exact experiment files, then attacked root
+proofs/manuscript. Symmetry agent read-only reviewed O4. Root reviewed both
+agent contributions and the separate symmetry briefing. No human review or
+external mathematical independence is implied.

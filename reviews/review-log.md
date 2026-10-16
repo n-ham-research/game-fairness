@@ -12,3 +12,8 @@ information agent independently approved C1/C2 subject to incorporated fixed
 reference-process clarification. See R-P7-INFORMATION.md and
 research/phase7-literature-and-status.md. Exact finite checks corroborate
 proofs, not substitute for them. No novelty clearance or author sign-off.
+
+## Phase 8 — 16 October 2026
+See R-P8-REVIEW.md for supplied contexts, independent initial roles, exact
+findings and wording repairs. All candidate comparisons reviewed internally;
+38 tests and 42 provenance checks pass. Novelty/external scrutiny unresolved.

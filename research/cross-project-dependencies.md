@@ -34,3 +34,7 @@ a mutable companion branch. The underlying transfer source remains976e227.
 Phase 7 structural companion audit is pinned to game-symmetry
 `d581ee066270a46ac86f5548482eae0453fba500`. P7 assignment and mask results
 are developed here and do not depend on the six-player construction.
+
+Phase 8 review packet: game-symmetry commit `2b2a9c4`,
+research/external-review-briefing.md and phase8-review-readiness.md. No new
+fairness theorem depends on its group-classification candidates.

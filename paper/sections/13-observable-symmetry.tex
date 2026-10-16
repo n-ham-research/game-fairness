@@ -1,0 +1,68 @@
+\section{What richer observations recover}
+Let $X$ be the ordered physical state space. A disclosed experimental context
+$y$ draws a state with probabilities $K(y,x)$, so $K$ is row stochastic.
+Commitment observations of a table $f$ are $Kf$. These are conditional-state
+lotteries, not a forward signal channel without a prior. The nullspace of
+$K$ describes exactly the mean information lost. A functional of $f$ is
+identified precisely when its coefficient vector lies in the row span of $K$.
+These are standard linear inverse-problem facts.
+
+\begin{proposition}[Mean versus consequence-law recovery; P8-O1/O5]
+The design identifies every real payoff table iff $\ker K=0$. On a common
+finite consequence set with at least two ordered values, observations under
+every common strictly increasing expected-utility representation identify
+every deterministic consequence table iff
+\[
+ \ker K\cap\{-1,0,1\}^{X}=\{0\}.
+\]
+\end{proposition}
+\begin{proof}
+Subtract mean records for the first assertion. Robust equality of consequence
+lotteries is equality of each atom probability, so for tables $f,h$ it says
+$K(\mathbf1_{f=c}-\mathbf1_{h=c})=0$ for each consequence $c$.
+Every indicator difference is ternary. Conversely a nonzero ternary kernel
+vector is the difference of the indicators of its positive and negative
+supports, giving two indistinguishable binary consequence tables.
+\end{proof}
+For $K=(1/3,2/3)$ means do not identify arbitrary tables, but its kernel
+contains no nonzero ternary vector. Observing the whole consequence lottery
+identifies both deterministic entries by their different weights. Conditional
+stochastic consequences do not have this ternary restriction.
+
+The uniform pair threshold is also sensitive to known bias. For a
+transposition $T$ and a known probability $q\in[0,1]\setminus\{1/2\}$,
+\[
+ (qI+(1-q)T)^{-1}=\frac{qI-(1-q)T}{2q-1}.
+\]
+One biased pair mask, at every reference state, therefore identifies all mean
+entries. On a nonzero antisymmetric space the inverse amplifies worst-case
+Euclidean noise by $1/|2q-1|$. This is exact identification, with signed
+reconstruction coefficients, rather than practical perfect disclosure.
+
+\paragraph{The missing simultaneous information.}
+Suppose a laboratory logs one controller protocol
+$g(s)_{p(i)}=f_i(s_i)$, with each local button correspondence calibrated once
+across all recipients and trials. Observe each recipient's conditional receipt
+under this same joint intervention, rather than choosing different opponent
+correspondences in separate focal comparisons. For discrepancy arrays
+$d_i(s)=u_{p(i)}(gs)-u_i(s)$, the records are $Kd_i$.
+If $K$ has trivial kernel, vanishing discrepancies are equivalent to $g$
+being an exact automorphism. For a specified game it suffices that no nonzero
+attainable discrepancy tuple lies in the channel kernels. The laboratory
+protocol is physical data; agreement of optimized assignment values alone
+does not establish it. Joint receipt distributions are unnecessary for
+deterministic games: all recipient means conditional on the same logged
+intervention suffice. Player transitivity additionally requires identified
+protocols connecting every role.
+
+\paragraph{Utility representations.}
+Under that same protocol, preservation of all comparisons of profile lotteries
+for every recipient characterizes cardinal automorphisms by finite
+expected-utility uniqueness; preservation of all pure comparisons characterizes
+ordinal automorphisms by finite weak-order equivalence. These observations are
+within-recipient preference tests, not cross-role welfare equality. Alternatively,
+full-rank mean tests on minmax-normalized tables identify cardinal maps, and on
+rank tables identify ordinal maps. Normalize before observing: averaging does
+not generally commute with nonlinear recoding. Such tests are invariant under
+independent affine or ordinal recodings, respectively, but their numerical
+calibration does not become the participant's money scale by convention.
