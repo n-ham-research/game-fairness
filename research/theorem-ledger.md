@@ -40,3 +40,17 @@ the precise typed matching statements used here.
 | P7-O1–O2 | Pair-mask kernel dimension product binomial(k,r); sharp k-context recovery budget when m>k | phase7-independent-models.md; proved candidate, novelty unresolved |
 | P7-O3–O4 | Unoptimized IID equals exchangeable tests; common increasing utilities recover hidden consequence laws | same; optimized qualifier essential |
 | P7-C1–C2 | Coalition-size symmetry permits empty core; exact transported histories give no automatic coherence welfare premium | phase7-coalition-and-coherence.md; standard cooperative argument and scoped comparison |
+
+## Phase 8 — observation and behavior
+
+| Stable ID | Scope | Canonical proof/status |
+|---|---|---|
+| P8-B1–B2 | Fixed response policies and role-dependent belief pullbacks give adjusted opportunity hulls | phase8-behavior-and-identification.md; standard convexity application |
+| P8-B3 | Equilibrium correspondence invariance does not force role-equal selected equilibria | same; standard equivariance + exact witness |
+| P8-I1 | Shared logged interventions and channels identify simultaneous exact maps; fixed-game discrepancy criterion | same; identification comparison, not fairness definition |
+| P8-U1 | Exact/cardinal/ordinal test invariance; normalization vs welfare calibration | same; prior utility uniqueness applied |
+| P8-C1 | Observable coherence iff quotient extension splits, normal invisible subgroup within player kernel | same; standard group criterion applied |
+| P8-V1 | Coalition opportunity equality strictly refines security equality | same; standard minimax application |
+| P8-O1–O3 | General channel/reynolds kernels; generated-group insufficiency; biased pair invertibility and conditioning | phase8-observation-operators.md; established linear algebra applied |
+| P8-O4 | All uniform r-subset masks identify iff m>k(r−1) | same; reviewed candidate Schur–Weyl/branching application, external scrutiny pending |
+| P8-O5 | Deterministic consequence-law identification iff no nonzero ternary kernel vector | same; reviewed candidate elementary criterion, novelty unresolved |
