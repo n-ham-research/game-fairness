@@ -54,3 +54,14 @@ the precise typed matching statements used here.
 | P8-O1–O3 | General channel/reynolds kernels; generated-group insufficiency; biased pair invertibility and conditioning | phase8-observation-operators.md; established linear algebra applied |
 | P8-O4 | All uniform r-subset masks identify iff m>k(r−1) | same; reviewed candidate Schur–Weyl/branching application, external scrutiny pending |
 | P8-O5 | Deterministic consequence-law identification iff no nonzero ternary kernel vector | same; reviewed candidate elementary criterion, novelty unresolved |
+
+## Phase 9 — minimal and stable tests
+
+| Stable ID | Scope | Proof/status |
+|---|---|---|
+| P9-I1 | Linear-class symmetry membership iff measurement-kernel containment; rank minimum and cycle design | phase9-identification-and-stability.md; standard estimability application, reviewed candidate |
+| P9-S1–S2 | Restricted-singular-value stability, exact noisy testing margin, bounded-sample confidence | same; standard inverse/concentration tools, complete proofs |
+| P9-S3 | Approximate defects compose subadditively, tolerance sets need not be groups; margin qualification | same; exact counterexample, novelty unclaimed |
+| P9-F1 | Matched calibrated opportunity and response-law error bounds; transported approximate equilibria | same; direct decision inequalities, not universal fairness |
+| P9-M1 | Context rank bounds and all-r rectangle interpretation | phase9-mask-designs.md; established representation tools |
+| P9-M2 | Exactly five triple masks for binary five-opponent data; connected odd-unicyclic complementary graph criterion | same; independent elementary proof and exact exhaustion, novelty unresolved |
