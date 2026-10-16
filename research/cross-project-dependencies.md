@@ -38,3 +38,7 @@ are developed here and do not depend on the six-player construction.
 Phase 8 review packet: game-symmetry commit `2b2a9c4`,
 research/external-review-briefing.md and phase8-review-readiness.md. No new
 fairness theorem depends on its group-classification candidates.
+
+Phase9 companion review/binary proof assessment: game-symmetry commit
+`e896a5cae79c5c63a81be16f1577bc365e67a5a6`, research/phase9-handover.md.
+P9-I/S/F/M remain canonical here and do not depend on its candidate classification.

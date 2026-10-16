@@ -34,3 +34,8 @@ Phase 8: see phase8-report.md. Prioritize game-specific separating designs,
 stable identification, strategically justified response/selection models and
 weighted deterministic-mixture novelty assessment. Keep research-only all-r
 and observable-coherence extensions outside the main narrative pending scrutiny.
+
+Phase9: minimal candidate-symmetry tests and stable calibrated role bounds
+now proved; see phase9-handover.md. Prioritize prior-art scrutiny, noisy
+cost-constrained context selection and justified response/selection models.
+The elementary five-context mask result stays research-only.

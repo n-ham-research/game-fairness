@@ -55,6 +55,42 @@ deterministic games: all recipient means conditional on the same logged
 intervention suffice. Player transitivity additionally requires identified
 protocols connecting every role.
 
+\paragraph{Minimal and noisy symmetry tests.}
+Suppose the unknown game belongs to a disclosed linear utility class $W$,
+and write $D_g=R_g-I$ for the discrepancy operator of the calibrated protocol.
+Observations $Lu$ identify whether $g$ is a symmetry throughout $W$ iff
+\[
+ \ker(L|_W)\subseteq\ker(D_g|_W).
+\]
+Necessity follows by comparing an invisible perturbation with the zero game;
+sufficiency follows because $D_g|_W$ then factors through $L|_W$.
+Consequently at least $\operatorname{rank}(D_g|_W)$ independent scalar
+linear observations are necessary, and unrestricted linear designs attain
+this bound. Restricted physical contexts may require more. This can need
+less information than full utility recovery. On the full class, observe
+all but one discrepancy entry in each cycle of $R_g$; each omitted entry
+is determined by its cycle's zero sum.
+
+For discrepancy observations $y=Md+e$, $d\in\Delta=D_gW$, assume
+$\|e\|_2\le\eta$ and $\Delta\ne0$. Put
+$\alpha=\min_{d\in\Delta,\|d\|_2=1}\|Md\|_2$. If $\alpha>0$,
+\[
+ \|d\|_2\le (\|y\|_2+\eta)/\alpha.
+\]
+This follows from the triangle inequality and the restricted minimum
+singular value. Under the earlier common calibration and matched transports,
+a sup-norm payoff discrepancy at most $\epsilon$ gives each matched source/target
+role-value gap at most $\epsilon$ for every common belief. Since
+$\|d\|_\infty\le\|d\|_2$, the observation bound supplies such a certificate.
+With positive noise one cannot uniformly distinguish exact zero from every
+nonzero discrepancy in an unrestricted nonzero $\Delta$. Against the
+separated alternative $\|d\|_2\ge\epsilon$ with $\epsilon>0$, a deterministic uniform test
+exists precisely when $\alpha\epsilon>2\eta$: the null and alternative
+error balls are disjoint exactly then. Approximate payoff preservation does
+not imply an exact automorphism, and fixed-tolerance approximate maps need
+not form a group. These are standard linear estimation bounds applied to
+specified interventions, not uncalibrated interpersonal welfare comparisons.
+
 \paragraph{Utility representations.}
 Under that same protocol, preservation of all comparisons of profile lotteries
 for every recipient characterizes cardinal automorphisms by finite

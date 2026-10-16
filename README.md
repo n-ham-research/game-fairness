@@ -33,3 +33,6 @@ nor the companion has been submitted. No third-party PDFs are tracked.
 Phase 8: [focused research report](research/phase8-report.md),
 [observation theorems](research/phase8-observation-operators.md), and
 [behavior and identification](research/phase8-behavior-and-identification.md).
+
+Phase 9: [minimal/noisy observation handover](research/phase9-handover.md)
+and [optimal five-context mask proof](research/phase9-mask-designs.md).

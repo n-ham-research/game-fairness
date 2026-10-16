@@ -24,3 +24,8 @@ loss and shared intervention recovery. Ten-page local build visually checked.
 See phase8-report.md for prioritized questions and source limitations. All-r
 representation result remains research-only; no external review/author sign-off
 or submission authorization.
+
+Phase9: minimal and noisy identification bridge added to focused draft;
+eleven-page build visually inspected. Five-context design and sampling details
+remain research-only. Source/novelty assessment and external criticism still
+required; no submission or author sign-off. See phase9-handover.md.

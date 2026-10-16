@@ -17,3 +17,8 @@ proofs, not substitute for them. No novelty clearance or author sign-off.
 See R-P8-REVIEW.md for supplied contexts, independent initial roles, exact
 findings and wording repairs. All candidate comparisons reviewed internally;
 38 tests and 42 provenance checks pass. Novelty/external scrutiny unresolved.
+
+## Phase9 — 16 October 2026
+R-P9-REVIEW.md records two separate-agent attacks, elementary mask proof
+review and incorporated wording/CE strengthening.45 tests,42 provenance and
+manuscript build pass. Same-model agreement is not external certification.

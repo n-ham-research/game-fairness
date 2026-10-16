@@ -41,3 +41,9 @@ agent authored O1–O5 and its two exact experiment files, then attacked root
 proofs/manuscript. Symmetry agent read-only reviewed O4. Root reviewed both
 agent contributions and the separate symmetry briefing. No human review or
 external mathematical independence is implied.
+
+Phase9: root developed minimal/noisy identification, approximate decision bounds
+and the elementary five-mask proof/tests, integrated manuscript and handover.
+Symmetry agent independently criticized all principal claims; feasibility agent
+provided a separate attack and final manuscript/concentration review. Actual
+findings are in R-P9-REVIEW.md. All are same-family AI, not human peer review.
