@@ -15,3 +15,13 @@ Priority source tasks: verified1944VNM body; finalPlan; originalDM proofs;
 a precise comparison with cardinal-utility/assignment literature for any
 proposed characterization. Do not repeat failed access searches absent a
 new lead, and do not infer novelty from missing terminology or failed searches.
+
+## Phase 10 source comparison
+
+phase10-assessment.md distinguishes close prior (graph realization, universal
+covers and signed-graph switching) from unresolved exact priority of the
+assignment/menu comparisons. Kreps full-proof/menu-identification comparison
+remains a gap; no absent-search-hit novelty inference. Epstein–Schneider's
+September2002 working version is identified separately from its2003 final.
+The currently served Zaslavsky arXiv PDF has a2024internal date despite its2013
+identifier. Earlier Nash/Shapley/Varian/VNM source versions remain unchanged.

@@ -25,3 +25,21 @@ Proofs: utility-invariance.md; phase3-fairness.md;
 assignment-and-solution-rules.md; phase4-assignment-model.md;
 fairness-literature-vnm-strategic.md. Exact tests check the specified examples,
 not general characterizations or novelty.
+
+## New Phase 10 retained counterexamples
+
+These extend the canonical programme; they are not migrated evidence or claims
+of published originality. Full laws/proofs and exact tests are in Phase10 notes.
+
+- P10-O2: twelve-role connected cubic coordination with all focal actions
+  essential and identical menus, but trivial exact/cardinal/ordinal player image.
+- P10-O4: one negative edge on K4 breaks interchangeability into two orbits
+  despite underlying vertex transitivity; cycle parity is the exact obstruction.
+- P10-A1: reversed physical action encodings give post-role indifference for
+  every prior, but positive value of role revelation away from equal state odds.
+- P10-A2: a safe best commitment hides unequal unused aligned rows; essentiality
+  cannot be omitted from full-law recovery.
+- P10-R3: an additional physical lottery is invisible to every common-risk/prior
+  optimized test, but a positive state-dependent utility strictly exposes it.
+- P10-OA3: the same unordered opponent record reverses calibrated role ranking
+  when opponents can observe the realized private action rather than its law.

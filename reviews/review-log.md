@@ -22,3 +22,12 @@ findings and wording repairs. All candidate comparisons reviewed internally;
 R-P9-REVIEW.md records two separate-agent attacks, elementary mask proof
 review and incorporated wording/CE strengthening.45 tests,42 provenance and
 manuscript build pass. Same-model agreement is not external certification.
+
+## Phase 10 — 18 October2026
+
+Foundational direction correction: equal opportunity/global symmetry, blind
+assignment timing, common-risk preferences and ambiguous unordered opponents.
+R-P10-REVIEW.md records actual pre/post-restart derivations and fresh proof
+attacks. No external review or priority clearance. All69exact tests pass;
+full provenance/build/clean-copy verification reported in the handover.
+No manuscript or companion edits.

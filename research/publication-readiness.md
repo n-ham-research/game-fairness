@@ -29,3 +29,13 @@ Phase9: minimal and noisy identification bridge added to focused draft;
 eleven-page build visually inspected. Five-context design and sampling details
 remain research-only. Source/novelty assessment and external criticism still
 required; no submission or author sign-off. See phase9-handover.md.
+
+## Current assessment — Phase 10
+
+The eleven-page foundation draft is unchanged. Foundational investigations
+now supersede observation expansion as the next research priority. No result
+is demonstrated to support an important original paper yet. The calibrated
+assignment/timing and common-risk comparisons merit a focused primary menu-
+choice literature audit and mathematical strengthening. Graph/switching results
+are supporting impossibility evidence with explicit close prior. See
+phase10-assessment.md; no external contact, submission or author sign-off.

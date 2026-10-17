@@ -36,3 +36,13 @@ Phase 8: [focused research report](research/phase8-report.md),
 
 Phase 9: [minimal/noisy observation handover](research/phase9-handover.md)
 and [optimal five-context mask proof](research/phase9-mask-designs.md).
+
+## Phase 10 — foundational fairness
+
+[Ten-item handover](research/phase10-handover.md),
+[foundational status and relationship map](research/phase10-foundations-status.md),
+[originality/significance assessment](research/phase10-assessment.md), and
+[actual internal reviews](reviews/R-P10-REVIEW.md). Four mathematical
+investigations address opportunity versus symmetry, assignment timing,
+common-risk preferences and ambiguous opponent ordering. No important original
+result or universal fairness theorem is claimed; the manuscript is unchanged.

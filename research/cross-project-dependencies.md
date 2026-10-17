@@ -42,3 +42,11 @@ fairness theorem depends on its group-classification candidates.
 Phase9 companion review/binary proof assessment: game-symmetry commit
 `e896a5cae79c5c63a81be16f1577bc365e67a5a6`, research/phase9-handover.md.
 P9-I/S/F/M remain canonical here and do not depend on its candidate classification.
+
+## Phase 10 boundary check
+
+Game Symmetry stays read-only at e896a5cae79c5c63a81be16f1577bc365e67a5a6.
+Agent Games stays read-only at d4d34eb2d18cc12c04b0850abe0bca4c6fbf604d
+(Phase19 closed). No P10 proof imports a new candidate theorem from either.
+The graph constructions here answer canonical fairness/opportunity questions;
+no companion classification or binary-potential result was edited.

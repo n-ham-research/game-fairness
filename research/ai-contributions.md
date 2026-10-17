@@ -47,3 +47,17 @@ and the elementary five-mask proof/tests, integrated manuscript and handover.
 Symmetry agent independently criticized all principal claims; feasibility agent
 provided a separate attack and final manuscript/concentration review. Actual
 findings are in R-P9-REVIEW.md. All are same-family AI, not human peer review.
+
+## Phase 10 — 17–18 October2026, foundational direction correction
+
+Root and three earlier branches developed graph-opportunity, assignment-timing,
+common-risk and ambiguous-opponent investigations. The assignment branch
+supplied its timing theorem and explicit rank-one counterexample; root supplied
+the polynomial lemma and signed-graph strengthening. Temporary staging was lost
+on restart. Root reconstructed canonical proofs and all24new test methods from
+the preserved messages/texts. Fresh fairness_proof_attack independently checked
+graph/timing claims and supplied an analytic rigidity certificate; fresh
+fairness_decision_attack reconstructed risk/timing claims. Root integrated
+sources, model limitations, ledgers and checks. Actual provenance/limits in
+../reviews/R-P10-REVIEW.md. Internal AI agreement is not external review,
+author sign-off, originality clearance or authorship. No companion edits.

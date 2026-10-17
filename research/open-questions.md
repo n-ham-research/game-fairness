@@ -15,3 +15,12 @@
 
 No question is answered merely by labeling an automorphism condition fair.
 Choose one model before expanding the general programme.
+
+## Phase 10 foundational priorities
+
+The observation/mask programme is paused. Seek natural positive gluing
+conditions beyond the now-explicit graph/switching obstruction; justified
+endogenous opponent responses for assignment fairness; essentiality-free
+behavioral quotients of consequence menus; and independently justified global
+role calibration. Audit menu-identification/decision theory for P10-A2/R2/R3
+before treating them as original. See phase10-assessment.md.

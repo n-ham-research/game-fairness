@@ -65,3 +65,20 @@ the precise typed matching statements used here.
 | P9-F1 | Matched calibrated opportunity and response-law error bounds; transported approximate equilibria | same; direct decision inequalities, not universal fairness |
 | P9-M1 | Context rank bounds and all-r rectangle interpretation | phase9-mask-designs.md; established representation tools |
 | P9-M2 | Exactly five triple masks for binary five-opponent data; connected odd-unicyclic complementary graph criterion | same; independent elementary proof and exact exhaustion, novelty unresolved |
+
+## Phase 10 — foundational fairness, 18 October2026
+
+| ID | Statement / exact scope | Proof and status |
+|---|---|---|
+| P10-O1/O2 | Identical essential focal opportunities in regular reciprocal coordination; full typed group Aut(G) x C2; rigid cubic witness | phase10-opportunity-symmetry.md; elementary application of known graph theory |
+| P10-O3 | All anonymous unfolded depths agree without player interchange; actual graph balls differ | same; standard universal-cover application |
+| P10-O4 | Signed coordination lifts precisely preserve cycle parity; spanning-tree reconstruction | same; direct known signed-switching application, not a new invariant |
+| P10-A1 | Blind assignment-lottery indifference iff equal role maxima and common maximizing commitment | phase10-assignment.md; standard value-of-information equality |
+| P10-A2 | Universal blind indifference plus essentiality in at least one role per commitment iff aligned consequence laws | same; proved model-specific candidate, priority unresolved |
+| P10-R1/R2 | Finite max-polynomial lemma; universal common-risk values identify essential consequence menus | phase10-risk-opportunities.md; elementary lemma / technically distinct P7 extension |
+| P10-R3 | Rank-one common-risk tests can miss an action exposed by state-dependent increasing utility | same; exact counterexample, priority unresolved |
+| P10-OA1 | Robust guarantee sets characterize role indifference under two specified response-information models | phase10-opponents.md; standard convex/minimax application |
+| P10-OA2/OA3 | Sharp hidden-randomization premium, common worst arrangement criterion and role-preference reversal | same; elementary bounds/separations, exact priority unresolved |
+
+Fresh internal proof reviews: ../reviews/R-P10-REVIEW.md. No new universal
+fairness theorem, manuscript promotion or external novelty clearance.

@@ -1,5 +1,14 @@
 # Game Fairness research roadmap
 
+## Current direction — foundational fairness, Phase 10
+
+The author explicitly redirects this programme from observation algorithms to
+fairness/symmetry foundations. Agent Games Phase19 is closed. Read
+phase10-foundations-status.md for the relationship map, phase10-handover.md
+for completed investigations and phase10-assessment.md for next priorities.
+Do not extend masks/tensor reconstruction unless it resolves a foundational
+question. The earlier roadmap sections below are historical context.
+
 Initial split, 16 October 2026. This programme has equal intellectual priority
 with Game Symmetry, but its publication maturity differs. Read the migration
 record and theorem-ledger before research changes. The initial manuscript is a
